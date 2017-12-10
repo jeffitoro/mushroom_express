@@ -8,6 +8,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="format-detection" content="telephone=no">
 		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="{{url('css/font-awesome.min.css')}}">
+
 	
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 		<link rel="pingback" href="http://mushroom-farm.ancorathemes.com/xmlrpc.php" />

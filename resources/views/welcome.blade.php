@@ -381,7 +381,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 
 <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808567954 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468927187508"style="margin-bottom:0"><div class="wpb_wrapper"><div id="sc_services_425256846_wrap" class="sc_services_wrap">
 
-<div id="sc_services_425256846" class="sc_services sc_services_style_services-1 sc_services_type_images margin_bottom_large" style="width:100%;"><h5 class="sc_services_title sc_item_title"style="padding:40px">Mes produits</h5><div class="sc_columns columns_wrap"><div class="col-md-2"></div> <div class="col-md-4 column_padding_bottom">			<div id="sc_services_425256846_2"				class="sc_services_item sc_services_item_2 even"
+<div id="sc_services_425256846" class="sc_services sc_services_style_services-1 sc_services_type_images margin_bottom_large" style="width:100%;"><h5 class="sc_services_title sc_item_title"style="padding:40px;margin-top:10px">Mes produits</h5><div class="sc_columns columns_wrap"><div class="col-md-2"></div> <div class="col-md-4 column_padding_bottom">			<div id="sc_services_425256846_2"				class="sc_services_item sc_services_item_2 even"
 				>
 									<div class="sc_services_item_featured post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-5.jpg" data-title="Care and Handling">
@@ -390,7 +390,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 									<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/care-and-handling/">Champignons Blancs</a></h4>
 					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
+						<p>Le champignon blanc de Paris pied coupé est le plus connu. Ce champignon d‘élevage, appelé aussi champignon de couche, se cuisine simplement et trouve sa place dans un grand nombre de plats.</p>					</div>
 				</div>
 			</div>
 		</div><div class="col-md-4 column_padding_bottom">			<div id="sc_services_425256846_3"				class="sc_services_item sc_services_item_3 odd"
@@ -402,7 +402,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 									<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/the-growing-process/">Champignons Gris</a></h4>
 					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
+						<p>Le champignon gris‘utilise comme le champignon de Paris: on peut le faire simplement revenir à la poêle avec quelques aromates, ou l‘intégrer à des ravioles ou des dim sum, rouleaux de printemps, nems, bouillons comme la soupe miso. </p>					</div>
 				</div>
 			</div>
 		</div><div class="col-md-2"></div> </div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469603758005"><div class="wpb_wrapper"><div id="sc_services_926581663_wrap" class="sc_services_wrap"><div id="sc_services_926581663" class="sc_services sc_services_style_services-5 sc_services_type_icons  mushroom_img margin_top_large margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title"style="padding:40px">Bénéfices pour la santé</h5><div class="sc_service_container sc_align_"><div class="sc_services_image"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/mush-1.png" alt=""></div><div class="sc_columns columns_wrap"><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_1"				class="sc_services_item sc_services_item_1 odd first"
@@ -576,15 +576,13 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 		</div>						<!-- /.isotope_item -->
 				<div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3					">
 			<div class="post_item post_item_classic post_item_classic_3				  post_format_standard even last">
-				
-									<div class="post_featured">
-							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-5.jpg" data-title="Mushroom Varieties Overview">
-	<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/mushroom-varieties-overview/"><img class="wp-post-image" width="370" height="240" alt="Mushroom Varieties Overview" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-5-370x240.jpg"></a>	</div>
-						</div>
+			
 				<!-- /.post_content -->
 			</div>	<!-- /.post_item -->
 		</div>						<!-- /.isotope_item -->
-		</div></div></div><div id="sc_blogger_1210243515_scroll_bar" class="sc_scroll_bar sc_scroll_bar_horizontal sc_blogger_1210243515_scroll_bar"></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+		</div></div></div>
+		{{--  <div id="sc_blogger_1210243515_scroll_bar" class="sc_scroll_bar sc_scroll_bar_horizontal sc_blogger_1210243515_scroll_bar"></div>  --}}
+		</div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
 		<div class="vc_row-full-width vc_clearfix"></div>
 
 				</section> <!-- </section> class="post_content" itemprop="articleBody"> -->
@@ -619,7 +617,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 			</div>
 		</div>
     	<div class="form-group">        
-      	<div class="col-sm-offset-2 col-sm-10">
+      	<div class="col-sm-offset-5 col-sm-7">
        	 <button type="submit" class="btn btn-default">Submit</button>
       	</div>
     	</div>
@@ -661,13 +659,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
                     </div>	<!-- /.footer_wrap_inner -->
                 </footer>	<!-- /.footer_wrap -->
              
-				<div class="copyright_wrap copyright_style_text  scheme_original">
-					<div class="copyright_wrap_inner">
-						<div class="content_wrap">
-														<div class="copyright_text">Ancora © 2016 All Rights Reserved <a href="http://ancorathemes.com/about/">Terms of Use</a> and <a href="http://ancorathemes.com/about/">Privacy Policy</a></div>
-						</div>
-					</div>
-				</div>
+				
 				            </div>
 
 			
@@ -676,7 +668,8 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 	</div>		<!-- /.body_wrap -->
 	
 	
-	<a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a><div class="custom_html_section"></div><script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	<a href="#" class="scroll_to_top" title="Scroll to top"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+</a><div class="custom_html_section"></div><script type="text/javascript">(function() {function addEventListener(element,event,handler) {
 	if(element.addEventListener) {
 		element.addEventListener(event,handler, false);
 	} else if(element.attachEvent){
