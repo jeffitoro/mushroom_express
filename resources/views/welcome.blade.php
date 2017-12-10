@@ -1,270 +1,5 @@
-
-<!DOCTYPE html>
-<html lang="en-US" class="scheme_original">
-
-<head>
-	<title>Mushroom Farm</title>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta name="format-detection" content="telephone=no">
-	
-		<link rel="profile" href="http://gmpg.org/xfn/11" />
-		<link rel="pingback" href="http://mushroom-farm.ancorathemes.com/xmlrpc.php" />
-		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Mushroom Farm &raquo; Feed" href="http://mushroom-farm.ancorathemes.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Mushroom Farm &raquo; Comments Feed" href="http://mushroom-farm.ancorathemes.com/comments/feed/" />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/mushroom-farm.ancorathemes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.9"}};
-			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-<link property="stylesheet" rel='stylesheet' id='vc_extensions_cqbundle_adminicon-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/plugins/vc-extensions-cqbundle/css/admin_icon.css?ver=4.6.9' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='essential-grid-plugin-settings-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/plugins/essential-grid/public/assets/css/settings.css?ver=2.0.9.1' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='tp-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800&#038;ver=4.6.9' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='tp-raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;ver=4.6.9' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='tp-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700&#038;ver=4.6.9' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='yumprint-recipe-theme-layout-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/plugins/recipe-card/css/layout.css?ver=4.6.9' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='rs-plugin-settings-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.6' type='text/css' media='all' />
-<style id='rs-plugin-settings-inline-css' type='text/css'>
-#rs-demo-id {}
-</style>
-<link property="stylesheet" rel='stylesheet' id='woocommerce-layout-css'  href='//mushroom-farm.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.6.8' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='woocommerce-smallscreen-css'  href='//mushroom-farm.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.6.8' type='text/css' media='only screen and (max-width: 768px)' />
-<link property="stylesheet" rel='stylesheet' id='woocommerce-general-css'  href='//mushroom-farm.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.6.8' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='umberto-font-google_fonts-style-css'  href='http://fonts.googleapis.com/css?family=Signika+Negative:300,300italic,400,400italic,700,700italic%7CCatamaran:300,300italic,400,400italic,700,700italic%7CSacramento:300,300italic,400,400italic,700,700italic%7CMontserrat:300,300italic,400,400italic,700,700italic&#038;subset=latin,latin-ext' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='umberto-fontello-style-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/themes/umberto/css/fontello/css/fontello.css' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='umberto-main-style-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/themes/umberto/style.css' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='umberto-animation-style-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/themes/umberto/fw/css/core.animation.css' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='umberto-shortcodes-style-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/plugins/trx_utils/shortcodes/theme.shortcodes.css' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='umberto-theme-style-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/themes/umberto/css/theme.css' type='text/css' media='all' />
-<style id='umberto-theme-style-inline-css' type='text/css'>
- #page_preloader{background-color:#ffffff}.preloader_wrap>div{background-color:#ba360a} .contacts_wrap .logo img{height:30px}
-</style>
-<link property="stylesheet" rel='stylesheet' id='umberto-plugin.woocommerce-style-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/themes/umberto/css/plugin.woocommerce.css' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='umberto-responsive-style-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/themes/umberto/css/responsive.css' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='mediaelement-css'  href='http://mushroom-farm.ancorathemes.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.22.0' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='wp-mediaelement-css'  href='http://mushroom-farm.ancorathemes.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.6.9' type='text/css' media='all' />
-<link property="stylesheet" rel='stylesheet' id='js_composer_front-css'  href='http://mushroom-farm.ancorathemes.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12.1' type='text/css' media='all' />
-<script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-content/plugins/essential-grid/public/assets/js/lightbox.js?ver=2.0.9.1'></script>
-<script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-content/plugins/essential-grid/public/assets/js/jquery.themepunch.tools.min.js?ver=2.0.9.1'></script>
-<script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-content/plugins/essential-grid/public/assets/js/jquery.themepunch.essential.min.js?ver=2.0.9.1'></script>
-<script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-content/plugins/recipe-card/js/post.js?ver=4.6.9'></script>
-<script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.6'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"http:\/\/mushroom-farm.ancorathemes.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='//mushroom-farm.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.6.8'></script>
-<script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=4.12.1'></script>
-<script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-content/themes/umberto/fw/js/photostack/modernizr.min.js'></script>
-<link rel='https://api.w.org/' href='http://mushroom-farm.ancorathemes.com/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://mushroom-farm.ancorathemes.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://mushroom-farm.ancorathemes.com/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 4.6.9" />
-<meta name="generator" content="WooCommerce 2.6.8" />
-<link rel="canonical" href="http://mushroom-farm.ancorathemes.com/" />
-<link rel='shortlink' href='http://mushroom-farm.ancorathemes.com/' />
-<link rel="alternate" type="application/json+oembed" href="http://mushroom-farm.ancorathemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmushroom-farm.ancorathemes.com%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://mushroom-farm.ancorathemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmushroom-farm.ancorathemes.com%2F&#038;format=xml" />
-<script type="text/javascript">
-	window.yumprintRecipePlugin = "http://mushroom-farm.ancorathemes.com/wp-content/plugins/recipe-card";
-	window.yumprintRecipeAjaxUrl = "http://mushroom-farm.ancorathemes.com/wp-admin/admin-ajax.php";
-	window.yumprintRecipeUrl = "http://mushroom-farm.ancorathemes.com/";
-</script><!--[if lte IE 8]>
-<script type="text/javascript">
-    window.yumprintRecipeDisabled = true;
-</script>
-<![endif]-->
-<style type="text/css">    .blog-yumprint-recipe .blog-yumprint-recipe-title {
-    	color: rgb(70,35,25);
-    }
-    .blog-yumprint-recipe .blog-yumprint-subheader, .blog-yumprint-recipe .blog-yumprint-infobar-section-title, .blog-yumprint-recipe .blog-yumprint-infobox-section-title, .blog-yumprint-nutrition-section-title {
-        color: rgb(97,61,32);
-    }
-    .blog-yumprint-recipe .blog-yumprint-save, .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save a {
-    	background-color: #945D31;
-    	color: #ffffff !important;
-    }
-    .blog-yumprint-recipe .blog-yumprint-save:hover, .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save:hover a {
-    	background-color: #ae6d39;
-    }
-    .blog-yumprint-recipe .blog-yumprint-adapted-link, .blog-yumprint-nutrition-more, .blog-yumprint-report-error {
-        color: #945D31;
-    }
-    .blog-yumprint-recipe .blog-yumprint-infobar-section-data, .blog-yumprint-recipe .blog-yumprint-infobox-section-data, .blog-yumprint-recipe .blog-yumprint-adapted, .blog-yumprint-recipe .blog-yumprint-author, .blog-yumprint-recipe .blog-yumprint-serves, .blog-yumprint-nutrition-section-data {
-        color: #8C8C8C;
-    }
-    .blog-yumprint-recipe .blog-yumprint-recipe-summary, .blog-yumprint-recipe .blog-yumprint-ingredient-item, .blog-yumprint-recipe .blog-yumprint-method-item, .blog-yumprint-recipe .blog-yumprint-note-item, .blog-yumprint-write-review, .blog-yumprint-nutrition-box {
-        color: rgb(102,102,102);
-    }
-    .blog-yumprint-write-review:hover, .blog-yumprint-nutrition-more:hover, .blog-yumprint-recipe .blog-yumprint-adapted-link:hover {
-        color: #ae6d39;
-    }
-    .blog-yumprint-recipe .blog-yumprint-nutrition-bar:hover .blog-yumprint-nutrition-section-title {
-        color: #7a4d28;
-    }
-    .blog-yumprint-recipe .blog-yumprint-nutrition-bar:hover .blog-yumprint-nutrition-section-data {
-        color: #a6a6a6;
-    }
-
-    .blog-yumprint-recipe .blog-yumprint-print {
-    	background-color: #BEBEBE;
-    	color: #ffffff;
-    }
-    .blog-yumprint-recipe .blog-yumprint-print:hover {
-    	background-color: #d8d8d8;
-    }
-    .blog-yumprint-recipe {
-    	background-color: white;
-    	border-color: rgb(220, 220, 220);
-    	border-style: none;
-    	border-width: 1px;
-    	border-radius: 0px;
-    }
-    .blog-yumprint-recipe .blog-yumprint-recipe-contents {
-    	border-top-color: rgb(220, 220, 220);
-    	border-top-width: 1px;
-    	border-top-style: solid;
-    }
-    .blog-yumprint-recipe .blog-yumprint-info-bar, .blog-yumprint-recipe .blog-yumprint-nutrition-bar, .blog-yumprint-nutrition-border {
-    	border-top-color: rgb(220, 220, 220);
-    	border-top-width: 1px;
-    	border-top-style: solid;
-    }
-    .blog-yumprint-nutrition-line, .blog-yumprint-nutrition-thick-line, .blog-yumprint-nutrition-very-thick-line {
-    	border-top-color: rgb(220, 220, 220);
-    }
-    .blog-yumprint-recipe .blog-yumprint-info-box, .blog-yumprint-nutrition-box {
-    	background-color: white;
-    	border-color: rgb(220, 220, 220);
-    	border-style: solid;
-    	border-width: 1px;
-    	border-radius: 0px;
-    }
-    .blog-yumprint-recipe .blog-yumprint-recipe-title {
-		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
-		font-size: 22px;
-		font-weight: normal;
-		font-style: normal;
-		text-transform: none;
-		text-decoration: none;
-    }
-    .blog-yumprint-recipe .blog-yumprint-subheader {
-		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
-		font-size: 18px;
-		font-weight: normal;
-		font-style: normal;
-		text-transform: none;
-		text-decoration: none;
-    }
-    .blog-yumprint-recipe .blog-yumprint-recipe-summary, .blog-yumprint-recipe .blog-yumprint-ingredients, .blog-yumprint-recipe .blog-yumprint-methods, .blog-yumprint-recipe .blog-yumprint-notes, .blog-yumprint-write-review, .blog-yumprint-nutrition-box {
-		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
-		font-size: 14px;
-		font-weight: normal;
-		font-style: normal;
-		text-transform: none;
-		text-decoration: none;
-    }
-    .blog-yumprint-recipe .blog-yumprint-info-bar, .blog-yumprint-recipe .blog-yumprint-info-box, .blog-yumprint-recipe .blog-yumprint-adapted, .blog-yumprint-recipe .blog-yumprint-author, .blog-yumprint-recipe .blog-yumprint-serves, .blog-yumprint-recipe .blog-yumprint-infobar-section-title, .blog-yumprint-recipe .blog-yumprint-infobox-section-title,.blog-yumprint-recipe .blog-yumprint-nutrition-bar, .blog-yumprint-nutrition-section-title, .blog-yumprint-nutrition-more {
-		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
-		font-size: 14px;
-		font-weight: normal;
-		font-style: normal;
-		text-transform: none;
-		text-decoration: none;
-    }
-    .blog-yumprint-recipe .blog-yumprint-action {
-		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
-		font-size: 13px;
-		font-weight: normal;
-		font-style: normal;
-		text-transform: none;
-		text-decoration: none;
-    }    .blog-yumprint-header {
-        width: 100% !important;
-    }    </style>		<script type="text/javascript">
-			var ajaxRevslider;
-			
-			jQuery(document).ready(function() {
-				// CUSTOM AJAX CONTENT LOADING FUNCTION
-				ajaxRevslider = function(obj) {
-				
-					// obj.type : Post Type
-					// obj.id : ID of Content to Load
-					// obj.aspectratio : The Aspect Ratio of the Container / Media
-					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
-					
-					var content = "";
-
-					data = {};
-					
-					data.action = 'revslider_ajax_call_front';
-					data.client_action = 'get_slider_html';
-					data.token = 'cbd8044b1a';
-					data.type = obj.type;
-					data.id = obj.id;
-					data.aspectratio = obj.aspectratio;
-					
-					// SYNC AJAX REQUEST
-					jQuery.ajax({
-						type:"post",
-						url:"http://mushroom-farm.ancorathemes.com/wp-admin/admin-ajax.php",
-						dataType: 'json',
-						data:data,
-						async:false,
-						success: function(ret, textStatus, XMLHttpRequest) {
-							if(ret.success == true)
-								content = ret.data;								
-						},
-						error: function(e) {
-							console.log(e);
-						}
-					});
-					
-					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
-					 return content;						 
-				};
-				
-				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
-				var ajaxRemoveRevslider = function(obj) {
-					return jQuery(obj.selector+" .rev_slider").revkill();
-				};
-
-				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
-				var extendessential = setInterval(function() {
-					if (jQuery.fn.tpessential != undefined) {
-						clearInterval(extendessential);
-						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
-							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
-							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
-							// func: the Function Name which is Called once the Item with the Post Type has been clicked
-							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
-							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
-						}
-					}
-				},30);
-			});
-		</script>
-		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
-<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://mushroom-farm.ancorathemes.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://mushroom-farm.ancorathemes.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.2.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1469470634125{background-color: #edf0eb !important;}.vc_custom_1467808567954{background-color: #edf0eb !important;}.vc_custom_1469455190343{background-color: #edf0eb !important;}.vc_custom_1469457330735{background-image: url(http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/bg_team.jpg?id=278) !important;}.vc_custom_1469442847265{background-image: url(http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/bg_video.jpg?id=298) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1467808562274{background-color: #edf0eb !important;}.vc_custom_1469525203354{margin-bottom: -1.1rem !important;}.vc_custom_1469525538426{margin-top: -0.2rem !important;margin-bottom: 0.5rem !important;}.vc_custom_1468927187508{margin-bottom: 2.5rem !important;}.vc_custom_1469603758005{margin-bottom: 1.4rem !important;}.vc_custom_1469457279060{margin-bottom: 0.5rem !important;}.vc_custom_1469090596713{margin-bottom: 0.8rem !important;}.vc_custom_1469444183926{margin-bottom: 0.5rem !important;}.vc_custom_1468933527625{margin-bottom: 0px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+@include('layouts.head
+')
 
 <body class="home page page-id-4 page-template-default umberto_body body_style_wide body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide preloader wpb-js-composer js-comp-ver-4.12.1 vc_responsive">
 
@@ -299,68 +34,24 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 </div>                        </div>
                     </div>
                 
-			<div class="top_panel_middle" style=" background: #EDF0EB">
+			<div class="top_panel_middle" style=" background: #EDF0EB;margin-bottom:0;margin-top:0">
 				<div class="content_wrap">
 					<div class="column-1_5 contact_logo">
-								<div class="logo">
-			<a href="http://mushroom-farm.ancorathemes.com/"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/Untitled-2.png" class="logo_main" alt="" width="131" height="26"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/Untitled-2.png" class="logo_fixed" alt="" width="131" height="26"></a>
+								<div class="logo"style="margin-bottom:0;margin-top:0">
+			<a href="{{ url('/') }}"><img src="img/logo-mushroom3.png" class="logo_main" alt="" width="131" height="26" style="max-height:75px"><img src="img/logo-mushroom3.png" class="logo_fixed" alt="" width="131" height="26"></a>
 		</div>
 							</div>
 					<div class="column-4_5 menu_main_wrap">
 						<nav class="menu_main_nav_area menu_hover_fade">
-							<ul id="menu_main" class="menu_main_nav"><li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-55"><a href="#"><span>Home</span></a>
-<ul class="sub-menu">
-	<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item menu-item-56"><a href="http://mushroom-farm.ancorathemes.com/"><span>Home 1</span></a></li>
-	<li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-322"><a href="http://mushroom-farm.ancorathemes.com/home-2/"><span>Home 2</span></a></li>
-	<li id="menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321"><a href="http://mushroom-farm.ancorathemes.com/home-3/"><span>Home 3</span></a></li>
-	<li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320"><a href="http://mushroom-farm.ancorathemes.com/home-4/"><span>Home 4</span></a></li>
-	<li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="http://mushroom-farm.ancorathemes.com/home-5/"><span>Home 5</span></a></li>
-</ul>
+							<ul id="menu_main" class="menu_main_nav"><li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-55"><a href="#"><span>Accueil</span></a>
 </li>
-<li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57"><a href="#"><span>About us</span></a>
-<ul class="sub-menu">
-	<li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284"><a href="http://mushroom-farm.ancorathemes.com/about-us/"><span>About Us</span></a></li>
-	<li id="menu-item-58" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-58"><a href="#"><span>Features</span></a>
-	<ul class="sub-menu">
-		<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="http://mushroom-farm.ancorathemes.com/shortcodes/"><span>Shortcodes</span></a></li>
-		<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="http://mushroom-farm.ancorathemes.com/typography/"><span>Typography</span></a></li>
-		<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://mushroom-farm.ancorathemes.com/support/"><span>Support</span></a></li>
-		<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="http://mushroom-farm.ancorathemes.com/video-tutorials/"><span>Video Tutorials</span></a></li>
-	</ul>
+<li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57"><a href="#"><span>Sur nous</span></a>
 </li>
-	<li id="menu-item-105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-105"><a href="#"><span>Gallery</span></a>
-	<ul class="sub-menu">
-		<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="http://mushroom-farm.ancorathemes.com/gallery-masonry/"><span>Gallery Masonry</span></a></li>
-		<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="http://mushroom-farm.ancorathemes.com/gallery-grid/"><span>Gallery Grid</span></a></li>
-		<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://mushroom-farm.ancorathemes.com/gallery-cobbles/"><span>Gallery Cobbles</span></a></li>
-	</ul>
-</li>
-</ul>
-</li>
-<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="http://mushroom-farm.ancorathemes.com/shop/"><span>Our Products</span></a></li>
-<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="http://mushroom-farm.ancorathemes.com/health-benefits/"><span>Health Benefits</span></a></li>
-<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="http://mushroom-farm.ancorathemes.com/learn/"><span>Learn</span></a></li>
-<li id="menu-item-146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146"><a href="#"><span>Blog</span></a>
-<ul class="sub-menu">
-	<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="http://mushroom-farm.ancorathemes.com/blog-classic/"><span>Classic Style</span></a></li>
-	<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="http://mushroom-farm.ancorathemes.com/blog-masonry-2-columns/"><span>Masonry 2 Columns</span></a></li>
-	<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="http://mushroom-farm.ancorathemes.com/blog-masonry-3-columns/"><span>Masonry 3 Columns</span></a></li>
-	<li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148"><a href="http://mushroom-farm.ancorathemes.com/blog-portfolio-2-columns/"><span>Portfolio 2 Columns</span></a></li>
-	<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="http://mushroom-farm.ancorathemes.com/blog-portfolio-3-columns/"><span>Portfolio 3 Columns</span></a></li>
-</ul>
-</li>
-<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="http://mushroom-farm.ancorathemes.com/contacts/"><span>Contacts</span></a></li>
+<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="http://mushroom-farm.ancorathemes.com/shop/"><span>Nos Produits</span></a></li>
+<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="http://mushroom-farm.ancorathemes.com/health-benefits/"><span>Bio</span></a></li>
+<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="http://mushroom-farm.ancorathemes.com/contacts/"><span>Contactes</span></a></li>
 </ul>						</nav>
-													<div class="menu_main_cart top_panel_icon">
-								<a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
-	<span class="contact_icon icon-1"></span>
-	<span class="contact_label contact_cart_label">CART:</span>
-	<span class="contact_cart_totals">
-		<span class="cart_items">0 Items</span><span class="cart_summa">&#36;0.00</span>
-	</span>
-</a>
-<ul class="widget_area sidebar_cart sidebar"><li>
-	<div class="widget woocommerce widget_shopping_cart"><div class="hide_cart_widget_if_empty"><div class="widget_shopping_cart_content"></div></div></div></li></ul>							</div>
+													
 												</div>
 				</div>
 			</div>
@@ -409,19 +100,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 </li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="http://mushroom-farm.ancorathemes.com/shop/"><span>Our Products</span></a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="http://mushroom-farm.ancorathemes.com/health-benefits/"><span>Health Benefits</span></a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="http://mushroom-farm.ancorathemes.com/learn/"><span>Learn</span></a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146"><a href="#"><span>Blog</span></a>
-<ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="http://mushroom-farm.ancorathemes.com/blog-classic/"><span>Classic Style</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="http://mushroom-farm.ancorathemes.com/blog-masonry-2-columns/"><span>Masonry 2 Columns</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="http://mushroom-farm.ancorathemes.com/blog-masonry-3-columns/"><span>Masonry 3 Columns</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148"><a href="http://mushroom-farm.ancorathemes.com/blog-portfolio-2-columns/"><span>Portfolio 2 Columns</span></a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="http://mushroom-farm.ancorathemes.com/blog-portfolio-3-columns/"><span>Portfolio 3 Columns</span></a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="http://mushroom-farm.ancorathemes.com/contacts/"><span>Contacts</span></a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="http://mushroom-farm.ancorathemes.com/contacts/"><span>Contactes</span></a></li>
 </ul>				</nav>
 			</div>
 			
@@ -430,7 +111,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 							</div>
 		</div>
 		<div class="mask"></div>
-	</div>		<section class="slider_wrap slider_boxed slider_engine_revo slider_alias_mushroom-slider-1 slider_with_over_content" style=" background: #EDF0EB">
+	</div>		<section class="container-fluid slider_wrap slider_boxed slider_engine_revo slider_alias_mushroom-slider-1 slider_with_over_content" style=" background: #EDF0EB">
 			<link href="http://fonts.googleapis.com/css?family=Signika+Negative%3A600" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
 <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
 <!-- START REVOLUTION SLIDER 5.2.6 auto mode -->
@@ -532,7 +213,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 	<!-- SLIDE  -->
 	<li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/slid-3-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 		<!-- MAIN IMAGE -->
-		<img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/slid-3.jpg"  alt="" title="slid-3"  width="1732" height="661" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<img src="img/champignon_blanc.jpg"  alt="" title="slid-3"  width="1732" height="661" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 		<!-- LAYERS -->
 
 		<!-- LAYER NR. 1 -->
@@ -702,54 +383,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 <div class="content_wrap">
 <div class="content">
 <article class="itemscope post_item post_item_single post_featured_default post_format_standard post-4 page type-page status-publish hentry" itemscope itemtype="http://schema.org/Article">
-<section class="post_content" itemprop="articleBody"><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469470634125 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469525203354"><div class="wpb_wrapper"><div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3" data-equal-height=".sc_column_item"><div class="column-1_3 sc_column_item sc_column_item_1 odd first"><div class="vc_empty_space"  style="height: 1.7rem" ><span class="vc_empty_space_inner"></span></div>
-<figure class="sc_image  alignright sc_image_shape_round margin_top_tiny margin_bottom_large" style="width:191px;height:191px;"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/about_pic-191x191.jpg" alt="" /></figure></div><div class="column-2_3 sc_column_item sc_column_item_2 even span_2"><div class="vc_empty_space"  style="height: 1.5rem" ><span class="vc_empty_space_inner"></span></div>
-<h5 class="sc_title sc_title_regular margin_top_small" style="margin-left: 2px; margin-bottom: 0.6rem;">&nbsp;We Grow Real Mushrooms!</h5><span class="sc_highlight" style="margin-left: 0.5rem;display: block;letter-spacing: 0.17px;max-width: 670px;color:#969188;font-size:18px; line-height: 1.45em;">GMO-free organic products for healthy living and nutrition with cross-country delivery. All grown at the new mushroom growing and packing facility outside the town.</span><div class="vc_empty_space"  style="height: 2rem" ><span class="vc_empty_space_inner"></span></div>
-<span class="sc_highlight sc_highlight_style_3" style="margin-left: 0.5rem;letter-spacing: -1px;">Umberto Calvino</span></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469525538426"><div class="wpb_wrapper"><div id="sc_services_1909515199_wrap" class="sc_services_wrap"><div id="sc_services_1909515199" class="sc_services sc_services_style_services-1 sc_services_type_icons  mushrooms_blog  margin_top_huge margin_bottom_large" style="width:100%;"><div class="sc_columns columns_wrap"><div class="column-1_4 column_padding_bottom">			<div id="sc_services_1909515199_1"				class="sc_services_item sc_services_item_1 odd first"
-				>
-				<a href="http://mushroom-farm.ancorathemes.com/services/agaric/"><span class="sc_icon icon-2"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/agaric/">Agaric</a></h4>
-					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum.</p>					</div>
-				</div>
-			</div>
-		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_services_1909515199_2"				class="sc_services_item sc_services_item_2 even"
-				>
-				<a href="http://mushroom-farm.ancorathemes.com/services/champignon/"><span class="sc_icon icon-3"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/champignon/">Champignon</a></h4>
-					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum.</p>					</div>
-				</div>
-			</div>
-		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_services_1909515199_3"				class="sc_services_item sc_services_item_3 odd"
-				>
-				<a href="http://mushroom-farm.ancorathemes.com/services/russule/"><span class="sc_icon icon-4"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/russule/">Russule</a></h4>
-					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum.</p>					</div>
-				</div>
-			</div>
-		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_services_1909515199_4"				class="sc_services_item sc_services_item_4 even"
-				>
-				<a href="http://mushroom-farm.ancorathemes.com/services/chanterelle/"><span class="sc_icon icon-5"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/chanterelle/">Chanterelle</a></h4>
-					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum.</p>					</div>
-				</div>
-			</div>
-		</div></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808567954 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468927187508"><div class="wpb_wrapper"><div id="sc_services_598953180_wrap" class="sc_services_wrap"><div id="sc_services_598953180" class="sc_services sc_services_style_services-1 sc_services_type_images  margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_services_title sc_item_title">The Farm</h5><div class="sc_services_descr sc_item_descr">We’re passionate about mushrooms</div><div class="sc_columns columns_wrap"><div class="column-1_3 column_padding_bottom">			<div id="sc_services_598953180_1"				class="sc_services_item sc_services_item_1 odd first"
-				>
-									<div class="sc_services_item_featured post_featured">
-							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-6.jpg" data-title="Our Mission">
-	<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/services/our-mission/"><img class="wp-post-image" width="370" height="240" alt="Our Mission" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-6-370x240.jpg"></a>	</div>
-						</div>
-									<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/our-mission/">Our Mission</a></h4>
-					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
-				</div>
-			</div>
-		</div><div class="column-1_3 column_padding_bottom">			<div id="sc_services_598953180_2"				class="sc_services_item sc_services_item_2 even"
+<section class="post_content" itemprop="articleBody"><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469470634125 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469525203354"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808567954 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468927187508"><div class="wpb_wrapper"><div id="sc_services_425256846_wrap" class="sc_services_wrap"><div id="sc_services_425256846" class="sc_services sc_services_style_services-1 sc_services_type_images  margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_services_title sc_item_title">The Farm</h5><div class="sc_services_descr sc_item_descr">We’re passionate about mushrooms</div><div class="sc_columns columns_wrap"><div class="col-sm-6 column_padding_bottom">			<div id="sc_services_425256846_2"				class="sc_services_item sc_services_item_2 even"
 				>
 									<div class="sc_services_item_featured post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-5.jpg" data-title="Care and Handling">
@@ -761,7 +395,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
 				</div>
 			</div>
-		</div><div class="column-1_3 column_padding_bottom">			<div id="sc_services_598953180_3"				class="sc_services_item sc_services_item_3 odd"
+		</div><div class="col-sm-6 column_padding_bottom">			<div id="sc_services_425256846_3"				class="sc_services_item sc_services_item_3 odd"
 				>
 									<div class="sc_services_item_featured post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-4.jpg" data-title="The Growing Process">
@@ -773,7 +407,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
 				</div>
 			</div>
-		</div></div><div class="sc_services_button sc_item_button"><a href="/health-benefits/" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">LEARN MORE</a></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469603758005"><div class="wpb_wrapper"><div id="sc_services_1403201695_wrap" class="sc_services_wrap"><div id="sc_services_1403201695" class="sc_services sc_services_style_services-5 sc_services_type_icons  mushroom_img margin_top_large margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title">Health Benefits</h5><div class="sc_services_descr sc_item_descr">GMO-free organic products for healthy living</div><div class="sc_service_container sc_align_"><div class="sc_services_image"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/mush-1.png" alt=""></div><div class="sc_columns columns_wrap"><div class="column-1_2 column_padding_bottom">			<div id="sc_services_1403201695_1"				class="sc_services_item sc_services_item_1 odd first"
+		</div></div><div class="sc_services_button sc_item_button"><a href="/health-benefits/" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">LEARN MORE</a></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469603758005"><div class="wpb_wrapper"><div id="sc_services_926581663_wrap" class="sc_services_wrap"><div id="sc_services_926581663" class="sc_services sc_services_style_services-5 sc_services_type_icons  mushroom_img margin_top_large margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title">Health Benefits</h5><div class="sc_services_descr sc_item_descr">GMO-free organic products for healthy living</div><div class="sc_service_container sc_align_"><div class="sc_services_image"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/mush-1.png" alt=""></div><div class="sc_columns columns_wrap"><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_1"				class="sc_services_item sc_services_item_1 odd first"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/kicks-up-your-metabolism/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/kicks-up-your-metabolism/">Kicks Up Your Metabolism</a></h4>
@@ -781,7 +415,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
 				</div>
 			</div>
-		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_1403201695_2"				class="sc_services_item sc_services_item_2 even"
+		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_2"				class="sc_services_item sc_services_item_2 even"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/increases-your-vitamin-d/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/increases-your-vitamin-d/">Increases Your Vitamin D</a></h4>
@@ -789,7 +423,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
 				</div>
 			</div>
-		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_1403201695_3"				class="sc_services_item sc_services_item_3 odd"
+		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_3"				class="sc_services_item sc_services_item_3 odd"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/boosts-your-immune-system/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/boosts-your-immune-system/">Boosts Your Immune System</a></h4>
@@ -797,7 +431,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
 				</div>
 			</div>
-		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_1403201695_4"				class="sc_services_item sc_services_item_4 even"
+		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_4"				class="sc_services_item sc_services_item_4 even"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/good-for-your-bladder/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/good-for-your-bladder/">Good for Your Bladder</a></h4>
@@ -805,7 +439,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
 				</div>
 			</div>
-		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_1403201695_5"				class="sc_services_item sc_services_item_5 odd"
+		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_5"				class="sc_services_item sc_services_item_5 odd"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/gives-you-antioxidants/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/gives-you-antioxidants/">Gives You Antioxidants</a></h4>
@@ -813,7 +447,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
 				</div>
 			</div>
-		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_1403201695_6"				class="sc_services_item sc_services_item_6 even"
+		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_6"				class="sc_services_item sc_services_item_6 even"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/improves-your-heart-health/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/improves-your-heart-health/">Improves Your Heart Health</a></h4>
@@ -821,8 +455,10 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
 				</div>
 			</div>
-		</div></div></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469455190343 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469457279060"><div class="wpb_wrapper"><div class="sc_section margin_bottom_huge"><div class="sc_section_inner"><h5 class="sc_section_title sc_item_title">Our Mushrooms</h5><div class="sc_section_descr sc_item_descr">We supply fresh and beautiful mushroom</div><div class="sc_section_content_wrap"><div class="columns_wrap sc_columns columns_nofluid sc_columns_count_4 margin_bottom_small" style="margin-top: 6.4em"><div class="column-1_4 sc_column_item sc_column_item_1 odd first"><div class=" cq-flipbox-container cq-bottomtop" data-frontbg="" data-backbg="#3c2e28" data-fontcolor="" data-face1="cq-flipbox-left" data-face2="cq-flipbox-right" data-flipdirection="bottomtop" data-elementheight="270" data-avatarsize="107" data-frontcontentcolor="" data-backcontentcolor="" data-titlesize="1.4285em" data-contentsize="0.857em" data-contentwidth="" data-iconcolor="" data-iconbg="" data-elementmargin="" data-elementwidth="" data-cardborder="" data-cardbordersize="" data-bordercolor="#999" data-backbuttonbg="" data-backbuttonhoverbg="" data-contentmargintop="" data-cardshape="square" data-frontfullimage="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-1.jpg" data-avatartype="none" data-backfullimage="" data-backavatar="image"><div class="cq-flipbox-flipper"><div class="cq-flipbox-item cq-flipbox-left" onclick=""><div class="cq-flipbox-content"></div></div><div class="cq-flipbox-item cq-flipbox-right" onclick=""><div class="cq-flipbox-content"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-1-214x214.jpg" width="107" height="107" class="cq-flipbox-cardavatar cq-noshadow" /><h4 class="cq-flipbox-title">Agaric</h4>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum. molestie lacus. Aenean nonummy</div></div></div></div></div><div class="column-1_4 sc_column_item sc_column_item_2 even"><div class=" cq-flipbox-container cq-bottomtop" data-frontbg="" data-backbg="#3c2e28" data-fontcolor="" data-face1="cq-flipbox-left" data-face2="cq-flipbox-right" data-flipdirection="bottomtop" data-elementheight="270" data-avatarsize="107" data-frontcontentcolor="" data-backcontentcolor="" data-titlesize="1.4285em" data-contentsize="0.857em" data-contentwidth="" data-iconcolor="" data-iconbg="" data-elementmargin="" data-elementwidth="" data-cardborder="" data-cardbordersize="" data-bordercolor="#999" data-backbuttonbg="" data-backbuttonhoverbg="" data-contentmargintop="" data-cardshape="square" data-frontfullimage="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-2.jpg" data-avatartype="none" data-backfullimage="" data-backavatar="image"><div class="cq-flipbox-flipper"><div class="cq-flipbox-item cq-flipbox-left" onclick=""><div class="cq-flipbox-content"></div></div><div class="cq-flipbox-item cq-flipbox-right" onclick=""><div class="cq-flipbox-content"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/category-2-214x214.jpg" width="107" height="107" class="cq-flipbox-cardavatar cq-noshadow" /><h4 class="cq-flipbox-title">Agaric</h4>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum. molestie lacus. Aenean nonummy</div></div></div></div></div><div class="column-1_4 sc_column_item sc_column_item_3 odd"><div class=" cq-flipbox-container cq-bottomtop" data-frontbg="" data-backbg="#3c2e28" data-fontcolor="" data-face1="cq-flipbox-left" data-face2="cq-flipbox-right" data-flipdirection="bottomtop" data-elementheight="270" data-avatarsize="107" data-frontcontentcolor="" data-backcontentcolor="" data-titlesize="1.4285em" data-contentsize="0.857em" data-contentwidth="" data-iconcolor="" data-iconbg="" data-elementmargin="" data-elementwidth="" data-cardborder="" data-cardbordersize="" data-bordercolor="#999" data-backbuttonbg="" data-backbuttonhoverbg="" data-contentmargintop="" data-cardshape="square" data-frontfullimage="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-3.jpg" data-avatartype="none" data-backfullimage="" data-backavatar="image"><div class="cq-flipbox-flipper"><div class="cq-flipbox-item cq-flipbox-left" onclick=""><div class="cq-flipbox-content"></div></div><div class="cq-flipbox-item cq-flipbox-right" onclick=""><div class="cq-flipbox-content"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/category-3-214x214.jpg" width="107" height="107" class="cq-flipbox-cardavatar cq-noshadow" /><h4 class="cq-flipbox-title">Agaric</h4>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum. molestie lacus. Aenean nonummy</div></div></div></div></div><div class="column-1_4 sc_column_item sc_column_item_4 even"><div class=" cq-flipbox-container cq-bottomtop" data-frontbg="" data-backbg="#3c2e28" data-fontcolor="" data-face1="cq-flipbox-left" data-face2="cq-flipbox-right" data-flipdirection="bottomtop" data-elementheight="270" data-avatarsize="107" data-frontcontentcolor="" data-backcontentcolor="" data-titlesize="1.4285em" data-contentsize="0.857em" data-contentwidth="" data-iconcolor="" data-iconbg="" data-elementmargin="" data-elementwidth="" data-cardborder="" data-cardbordersize="" data-bordercolor="#999" data-backbuttonbg="" data-backbuttonhoverbg="" data-contentmargintop="" data-cardshape="square" data-frontfullimage="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img4.jpg" data-avatartype="none" data-backfullimage="" data-backavatar="image"><div class="cq-flipbox-flipper"><div class="cq-flipbox-item cq-flipbox-left" onclick=""><div class="cq-flipbox-content"></div></div><div class="cq-flipbox-item cq-flipbox-right" onclick=""><div class="cq-flipbox-content"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img4-214x214.jpg" width="107" height="107" class="cq-flipbox-cardavatar cq-noshadow" /><h4 class="cq-flipbox-title">Agaric</h4>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum. molestie lacus. Aenean nonummy</div></div></div></div></div></div><div class="columns_wrap sc_columns columns_nofluid sc_columns_count_4 margin_bottom_small"><div class="column-1_4 sc_column_item sc_column_item_1 odd first"><div class=" cq-flipbox-container cq-bottomtop" data-frontbg="" data-backbg="#3c2e28" data-fontcolor="" data-face1="cq-flipbox-left" data-face2="cq-flipbox-right" data-flipdirection="bottomtop" data-elementheight="270" data-avatarsize="107" data-frontcontentcolor="" data-backcontentcolor="" data-titlesize="1.4285em" data-contentsize="0.857em" data-contentwidth="" data-iconcolor="" data-iconbg="" data-elementmargin="" data-elementwidth="" data-cardborder="" data-cardbordersize="" data-bordercolor="#999" data-backbuttonbg="" data-backbuttonhoverbg="" data-contentmargintop="" data-cardshape="square" data-frontfullimage="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-5.jpg" data-avatartype="none" data-backfullimage="" data-backavatar="image"><div class="cq-flipbox-flipper"><div class="cq-flipbox-item cq-flipbox-left" onclick=""><div class="cq-flipbox-content"></div></div><div class="cq-flipbox-item cq-flipbox-right" onclick=""><div class="cq-flipbox-content"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-5-214x214.jpg" width="107" height="107" class="cq-flipbox-cardavatar cq-noshadow" /><h4 class="cq-flipbox-title">Agaric</h4>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum. molestie lacus. Aenean nonummy</div></div></div></div></div><div class="column-1_4 sc_column_item sc_column_item_2 even"><div class=" cq-flipbox-container cq-bottomtop" data-frontbg="" data-backbg="#3c2e28" data-fontcolor="" data-face1="cq-flipbox-left" data-face2="cq-flipbox-right" data-flipdirection="bottomtop" data-elementheight="270" data-avatarsize="107" data-frontcontentcolor="" data-backcontentcolor="" data-titlesize="1.4285em" data-contentsize="0.857em" data-contentwidth="" data-iconcolor="" data-iconbg="" data-elementmargin="" data-elementwidth="" data-cardborder="" data-cardbordersize="" data-bordercolor="#999" data-backbuttonbg="" data-backbuttonhoverbg="" data-contentmargintop="" data-cardshape="square" data-frontfullimage="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-6.jpg" data-avatartype="none" data-backfullimage="" data-backavatar="image"><div class="cq-flipbox-flipper"><div class="cq-flipbox-item cq-flipbox-left" onclick=""><div class="cq-flipbox-content"></div></div><div class="cq-flipbox-item cq-flipbox-right" onclick=""><div class="cq-flipbox-content"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-6-214x214.jpg" width="107" height="107" class="cq-flipbox-cardavatar cq-noshadow" /><h4 class="cq-flipbox-title">Agaric</h4>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum. molestie lacus. Aenean nonummy</div></div></div></div></div><div class="column-1_4 sc_column_item sc_column_item_3 odd"><div class=" cq-flipbox-container cq-bottomtop" data-frontbg="" data-backbg="#3c2e28" data-fontcolor="" data-face1="cq-flipbox-left" data-face2="cq-flipbox-right" data-flipdirection="bottomtop" data-elementheight="270" data-avatarsize="107" data-frontcontentcolor="" data-backcontentcolor="" data-titlesize="1.4285em" data-contentsize="0.857em" data-contentwidth="" data-iconcolor="" data-iconbg="" data-elementmargin="" data-elementwidth="" data-cardborder="" data-cardbordersize="" data-bordercolor="#999" data-backbuttonbg="" data-backbuttonhoverbg="" data-contentmargintop="" data-cardshape="square" data-frontfullimage="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-7.jpg" data-avatartype="none" data-backfullimage="" data-backavatar="image"><div class="cq-flipbox-flipper"><div class="cq-flipbox-item cq-flipbox-left" onclick=""><div class="cq-flipbox-content"></div></div><div class="cq-flipbox-item cq-flipbox-right" onclick=""><div class="cq-flipbox-content"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-7-214x214.jpg" width="107" height="107" class="cq-flipbox-cardavatar cq-noshadow" /><h4 class="cq-flipbox-title">Agaric</h4>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum. molestie lacus. Aenean nonummy</div></div></div></div></div><div class="column-1_4 sc_column_item sc_column_item_4 even"><div class=" cq-flipbox-container cq-bottomtop" data-frontbg="" data-backbg="#3c2e28" data-fontcolor="" data-face1="cq-flipbox-left" data-face2="cq-flipbox-right" data-flipdirection="bottomtop" data-elementheight="270" data-avatarsize="107" data-frontcontentcolor="" data-backcontentcolor="" data-titlesize="1.4285em" data-contentsize="0.857em" data-contentwidth="" data-iconcolor="" data-iconbg="" data-elementmargin="" data-elementwidth="" data-cardborder="" data-cardbordersize="" data-bordercolor="#999" data-backbuttonbg="" data-backbuttonhoverbg="" data-contentmargintop="" data-cardshape="square" data-frontfullimage="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-8.jpg" data-avatartype="none" data-backfullimage="" data-backavatar="image"><div class="cq-flipbox-flipper"><div class="cq-flipbox-item cq-flipbox-left" onclick=""><div class="cq-flipbox-content"></div></div><div class="cq-flipbox-item cq-flipbox-right" onclick=""><div class="cq-flipbox-content"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/img-8-214x214.jpg" width="107" height="107" class="cq-flipbox-cardavatar cq-noshadow" /><h4 class="cq-flipbox-title">Agaric</h4>Lorem ipsum dolor sit amet, sectetuer adipscing elit vestibulum. molestie lacus. Aenean nonummy</div></div></div></div></div></div><div class="vc_empty_space"  style="height: 0.55rem" ><span class="vc_empty_space_inner"></span></div>
-</div><div class="sc_section_button sc_item_button"><a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">view all</a></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469457330735 vc_row-has-fill inverse_colors"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469090596713"><div class="wpb_wrapper"><div id="sc_team_1285356646_wrap" class="sc_team_wrap"><div id="sc_team_1285356646" class="sc_team sc_team_style_team-3  white_blog margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_team_title sc_item_title">Our Team</h5><div class="sc_team_descr sc_item_descr">Meet the specialists that work at our farm</div><div class="sc_columns columns_wrap"><div class="column-1_4 column_padding_bottom">			<div id="sc_team_1285356646_1"				class="sc_team_item sc_team_item_1 odd first"
+		</div></div></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div>
+    
+
+<div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469457330735 vc_row-has-fill inverse_colors"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469090596713"><div class="wpb_wrapper"><div id="sc_team_224560628_wrap" class="sc_team_wrap"><div id="sc_team_224560628" class="sc_team sc_team_style_team-3  white_blog margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_team_title sc_item_title">Our Team</h5><div class="sc_team_descr sc_item_descr">Meet the specialists that work at our farm</div><div class="sc_columns columns_wrap"><div class="column-1_4 column_padding_bottom">			<div id="sc_team_224560628_1"				class="sc_team_item sc_team_item_1 odd first"
 				>
 				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Nathan Smith" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/team-01-370x370.jpg">					<div class="sc_team_item_hover">
 						<div class="sc_team_item_socials"><div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny"><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_instagramm"><span class="icon-instagramm"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_linkedin"><span class="icon-linkedin"></span></a></div></div></div>
@@ -833,7 +469,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 					<div class="sc_team_item_position">Mushroom Farmer</div>
 				</div>
 			</div>
-		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_team_1285356646_2"				class="sc_team_item sc_team_item_2 even"
+		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_team_224560628_2"				class="sc_team_item sc_team_item_2 even"
 				>
 				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Laura Palmer" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/team-03-370x370.jpg">					<div class="sc_team_item_hover">
 						<div class="sc_team_item_socials"><div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny"><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_instagramm"><span class="icon-instagramm"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_linkedin"><span class="icon-linkedin"></span></a></div></div></div>
@@ -844,7 +480,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 					<div class="sc_team_item_position">Biologist</div>
 				</div>
 			</div>
-		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_team_1285356646_3"				class="sc_team_item sc_team_item_3 odd"
+		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_team_224560628_3"				class="sc_team_item sc_team_item_3 odd"
 				>
 				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Joe Carter" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/team-02-370x370.jpg">					<div class="sc_team_item_hover">
 						<div class="sc_team_item_socials"><div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny"><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_instagramm"><span class="icon-instagramm"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_linkedin"><span class="icon-linkedin"></span></a></div></div></div>
@@ -855,7 +491,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 					<div class="sc_team_item_position">Manager</div>
 				</div>
 			</div>
-		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_team_1285356646_4"				class="sc_team_item sc_team_item_4 even"
+		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_team_224560628_4"				class="sc_team_item sc_team_item_4 even"
 				>
 				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Melissa Cox" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/team-04-370x370.jpg">					<div class="sc_team_item_hover">
 						<div class="sc_team_item_socials"><div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny"><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_instagramm"><span class="icon-instagramm"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_linkedin"><span class="icon-linkedin"></span></a></div></div></div>
@@ -866,69 +502,8 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 					<div class="sc_team_item_position">Accountant</div>
 				</div>
 			</div>
-		</div></div></div><!-- /.sc_team --></div><!-- /.sc_team_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="sc_section margin_top_large aligncenter"><div class="sc_section_inner"><h5 class="sc_section_title sc_item_title">Shop</h5><div class="sc_section_descr sc_item_descr">From a Pack to Your Plate!</div><div class="sc_section_content_wrap"><div class="vc_empty_space"  style="height: 1.5em" ><span class="vc_empty_space_inner"></span></div>
-<div class="woocommerce columns-3">
-			
-			<ul class="products">
-
-				
-					<li class="post-164 product type-product status-publish has-post-thumbnail product_cat-agaric product_cat-maitake product_tag-chanterelle product_tag-fresh first instock shipping-taxable purchasable product-type-simple">
-			<div class="post_item_wrap">
-			<div class="post_featured">
-				<div class="post_thumb">
-					<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/product/brown-champignon/">
-		<img width="700" height="400" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/product6-700x400.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="product6" title="product6" />				</a>
-			</div>
-		</div>
-		<div class="post_content">
-		<h3>Brown Champignon</h3>
-
-	<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>21.99</span></span>
-<a rel="nofollow" href="/?add-to-cart=164" data-quantity="1" data-product_id="164" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a>			</div>
-		</div>
-		</li>
-
-				
-					<li class="post-163 product type-product status-publish has-post-thumbnail product_cat-chanterelle product_cat-shiitake product_tag-farming product_tag-russule  instock shipping-taxable purchasable product-type-simple">
-			<div class="post_item_wrap">
-			<div class="post_featured">
-				<div class="post_thumb">
-					<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/product/mixed-shiitake/">
-		<img width="700" height="400" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/product5-700x400.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="product5" title="product5" />				</a>
-			</div>
-		</div>
-		<div class="post_content">
-		<h3>Mixed Shiitake</h3>
-
-	<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>17.99</span></span>
-<a rel="nofollow" href="/?add-to-cart=163" data-quantity="1" data-product_id="163" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a>			</div>
-		</div>
-		</li>
-
-				
-					<li class="post-162 product type-product status-publish has-post-thumbnail product_cat-portabella product_tag-fresh product_tag-organic last instock shipping-taxable purchasable product-type-simple">
-			<div class="post_item_wrap">
-			<div class="post_featured">
-				<div class="post_thumb">
-					<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/product/pleurotus-eryngii/">
-		<img width="700" height="400" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/product4-700x400.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="product4" title="product4" />				</a>
-			</div>
-		</div>
-		<div class="post_content">
-		<h3>Pleurotus Eryngii</h3>
-
-	<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>18.99</span></span>
-<a rel="nofollow" href="/?add-to-cart=162" data-quantity="1" data-product_id="162" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a>			</div>
-		</div>
-		</li>
-
-				
-			</ul>
-
-			
-			</div></div></div></div><div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3" data-equal-height=".sc_column_item"><div class="column-2_3 sc_column_item sc_column_item_1 odd first span_2"><div class="sc_section"><div class="sc_section_inner"><div class="sc_section_content_wrap"><div  class="sc_intro" style="background: url(http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/bg_cta.jpg);"><div class="sc_intro_inner  sc_intro_style_2"><div class="sc_intro_content"><h6 class="sc_intro_subtitle"><strong>$</strong>5.99</h6><h2 class="sc_intro_title">Fresh Agaric Mushrooms</h2><div class="sc_intro_descr">GMO-FREE BREED<br />
-ORGANIC GROWN</div><div class="sc_intro_buttons sc_item_buttons"><div class="sc_intro_button sc_item_button"><a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">ORDER NOW</a></div></div></div></div></div></div></div></div></div><div class="column-1_3 sc_column_item sc_column_item_3 odd after_span_2"><div class="sc_section"><div class="sc_section_inner"><div class="sc_section_content_wrap"><div  class="sc_intro" style="background: url(http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/bg_cta2.jpg);"><div class="sc_intro_inner  sc_intro_style_2"><div class="sc_intro_content"><h2 class="sc_intro_title">New Recipes!</h2><div class="sc_intro_descr">It's time to get creative<br />
-in the kitchen...</div><div class="sc_intro_buttons sc_item_buttons"><div class="sc_intro_button sc_item_button"><a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">ORDER NOW</a></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469444183926"><div class="wpb_wrapper"><div id="sc_services_1306294159_wrap" class="sc_services_wrap"><div id="sc_services_1306294159" class="sc_services sc_services_style_services-1 sc_services_type_icons  margin_top_null margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title">Why Choose Us?</h5><div class="sc_services_descr sc_item_descr">We Deliver to Every Store in Town</div><div class="sc_columns columns_wrap"><div class="column-1_3 column_padding_bottom">			<div id="sc_services_1306294159_1"				class="sc_services_item sc_services_item_1 odd first"
+		</div></div></div><!-- /.sc_team --></div><!-- /.sc_team_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="sc_section margin_top_large aligncenter">
+      </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469444183926"><div class="wpb_wrapper"><div id="sc_services_673534069_wrap" class="sc_services_wrap"><div id="sc_services_673534069" class="sc_services sc_services_style_services-1 sc_services_type_icons  margin_top_null margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title">Why Choose Us?</h5><div class="sc_services_descr sc_item_descr">We Deliver to Every Store in Town</div><div class="sc_columns columns_wrap"><div class="column-1_3 column_padding_bottom">			<div id="sc_services_673534069_1"				class="sc_services_item sc_services_item_1 odd first"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/delivery-services/"><span class="sc_icon icon-6"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/delivery-services/">Delivery Services</a></h4>
@@ -936,7 +511,7 @@ in the kitchen...</div><div class="sc_intro_buttons sc_item_buttons"><div class=
 						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
 				</div>
 			</div>
-		</div><div class="column-1_3 column_padding_bottom">			<div id="sc_services_1306294159_2"				class="sc_services_item sc_services_item_2 even"
+		</div><div class="column-1_3 column_padding_bottom">			<div id="sc_services_673534069_2"				class="sc_services_item sc_services_item_2 even"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/certified-products/"><span class="sc_icon icon-7"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/certified-products/">Certified Products</a></h4>
@@ -944,7 +519,7 @@ in the kitchen...</div><div class="sc_intro_buttons sc_item_buttons"><div class=
 						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
 				</div>
 			</div>
-		</div><div class="column-1_3 column_padding_bottom">			<div id="sc_services_1306294159_3"				class="sc_services_item sc_services_item_3 odd"
+		</div><div class="column-1_3 column_padding_bottom">			<div id="sc_services_673534069_3"				class="sc_services_item sc_services_item_3 odd"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/recycled-packages/"><span class="sc_icon icon-8"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/recycled-packages/">Recycled Packages</a></h4>
@@ -952,9 +527,7 @@ in the kitchen...</div><div class="sc_intro_buttons sc_item_buttons"><div class=
 						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
 				</div>
 			</div>
-		</div></div><div class="sc_services_button sc_item_button"><a href="/learn/" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">LEARN MORE</a></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469442847265 vc_row-has-fill inverse_colors"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="sc_section margin_top_large margin_bottom_tiny aligncenter"><div class="sc_section_inner"><div class="sc_section_content_wrap"><div class="vc_empty_space"  style="height: 0.7rem" ><span class="vc_empty_space_inner"></span></div>
-<div class="sc_video_player margin_top_small top_rated "><div class="sc_video_frame sc_video_play_button hover_icon hover_icon_play" data-width="630px" data-height="372px" data-video="&lt;iframe class=&quot;video_frame&quot; src=&quot;https://player.vimeo.com/video/138547485?autoplay=1&quot; width=&quot;630px&quot; height=&quot;372px&quot; data-class=&quot;margin_top_small top_rated &quot; data-top-rated-text=&quot;Top rated&quot; frameborder=&quot;0&quot; webkitAllowFullScreen=&quot;webkitAllowFullScreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; allowFullScreen=&quot;allowFullScreen&quot;&gt;&lt;/iframe&gt;" style=" margin: auto;width:630px;height:372px;"><img alt="" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/bg_video_home-630x372.jpg"> <div class="top_rated_text">Top rated</div></div></div><h6 class="sc_title sc_title_regular margin_top_small" style="color:#daddd2;">The Best Mushrooms of 2016!&nbsp;</h6><div class="sc_section sc_section_block margin_top_tiny margin_bottom_large" style="max-width: 550px; margin: auto;"><div class="sc_section_inner"><div class="sc_section_content_wrap"><span class="sc_highlight" style="color:#daddd2;">Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</span></div></div></div><div class="vc_empty_space"  style="height: 1.2rem" ><span class="vc_empty_space_inner"></span></div>
-</div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468933527625"><div class="wpb_wrapper"><div id="sc_blogger_1259371672" class="sc_blogger layout_classic_3 template_masonry margin_top_tiny margin_bottom_medium  sc_blogger_horizontal"><h5 class="sc_blogger_title sc_item_title">From the Blog</h5><div class="sc_blogger_descr sc_item_descr">Bring The Sparkle to Your Meals!</div><div id="sc_blogger_1259371672_scroll" class="sc_scroll sc_scroll_horizontal sc_slider_noresize swiper-slider-container scroll-container" style="width:100%;"><div class="sc_scroll_wrapper swiper-wrapper"><div class="sc_scroll_slide swiper-slide"><div class="isotope_wrap" data-columns="3">		<div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3					">
+		</div></div><div class="sc_services_button sc_item_button"><a href="/learn/" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">LEARN MORE</a></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468933527625"><div class="wpb_wrapper"><div id="sc_blogger_1210243515" class="sc_blogger layout_classic_3 template_masonry margin_top_tiny margin_bottom_medium  sc_blogger_horizontal"><h5 class="sc_blogger_title sc_item_title">From the Blog</h5><div class="sc_blogger_descr sc_item_descr">Bring The Sparkle to Your Meals!</div><div id="sc_blogger_1210243515_scroll" class="sc_scroll sc_scroll_horizontal sc_slider_noresize swiper-slider-container scroll-container" style="width:100%;"><div class="sc_scroll_wrapper swiper-wrapper"><div class="sc_scroll_slide swiper-slide"><div class="isotope_wrap" data-columns="3">		<div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3					">
 			<div class="post_item post_item_classic post_item_classic_3				  post_format_standard odd">
 				
 									<div class="post_featured">
@@ -1054,22 +627,22 @@ in the kitchen...</div><div class="sc_intro_buttons sc_item_buttons"><div class=
 				</div>				<!-- /.post_content -->
 			</div>	<!-- /.post_item -->
 		</div>						<!-- /.isotope_item -->
-		</div></div></div><div id="sc_blogger_1259371672_scroll_bar" class="sc_scroll_bar sc_scroll_bar_horizontal sc_blogger_1259371672_scroll_bar"></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808562274 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="sc_clients_140479246_wrap" class="sc_clients_wrap"><div id="sc_clients_140479246" class="sc_clients sc_clients_style_clients-1  margin_top_large margin_bottom_medium" style="width:100%;"><h5 class="sc_clients_title sc_item_title">Awards</h5><div class="sc_clients_descr sc_item_descr">We grow the best mushrooms!</div><div class="sc_columns columns_wrap"><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_140479246_1" class="sc_clients_item sc_clients_item_1 odd first">
+		</div></div></div><div id="sc_blogger_1210243515_scroll_bar" class="sc_scroll_bar sc_scroll_bar_horizontal sc_blogger_1210243515_scroll_bar"></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808562274 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="sc_clients_943675_wrap" class="sc_clients_wrap"><div id="sc_clients_943675" class="sc_clients sc_clients_style_clients-1  margin_top_large margin_bottom_medium" style="width:100%;"><h5 class="sc_clients_title sc_item_title">Awards</h5><div class="sc_clients_descr sc_item_descr">We grow the best mushrooms!</div><div class="sc_columns columns_wrap"><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_1" class="sc_clients_item sc_clients_item_1 odd first">
 								<div class="sc_client_image"><img class="wp-post-image" alt="Award 6" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award6.png"></div>
 							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_140479246_2" class="sc_clients_item sc_clients_item_2 even">
+		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_2" class="sc_clients_item sc_clients_item_2 even">
 								<div class="sc_client_image"><img class="wp-post-image" alt="Award 5" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award5.png"></div>
 							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_140479246_3" class="sc_clients_item sc_clients_item_3 odd">
+		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_3" class="sc_clients_item sc_clients_item_3 odd">
 								<div class="sc_client_image"><img class="wp-post-image" alt="Award 4" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award4.png"></div>
 							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_140479246_4" class="sc_clients_item sc_clients_item_4 even">
+		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_4" class="sc_clients_item sc_clients_item_4 even">
 								<div class="sc_client_image"><img class="wp-post-image" alt="Award 3" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award2.png"></div>
 							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_140479246_5" class="sc_clients_item sc_clients_item_5 odd">
+		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_5" class="sc_clients_item sc_clients_item_5 odd">
 								<div class="sc_client_image"><img class="wp-post-image" alt="Award 2" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award1.png"></div>
 							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_140479246_6" class="sc_clients_item sc_clients_item_6 even">
+		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_6" class="sc_clients_item sc_clients_item_6 even">
 								<div class="sc_client_image"><img class="wp-post-image" alt="Award 1" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award3.png"></div>
 							</div>
 		</div></div></div><!-- /.sc_clients --></div><!-- /.sc_clients_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
@@ -1097,8 +670,8 @@ in the kitchen...</div><div class="sc_intro_buttons sc_item_buttons"><div class=
 		}
 	}
 })();
-</script><!-- MailChimp for WordPress v4.0.7 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-629" method="post" data-id="629" data-name="Form1" ><div class="mc4wp-form-fields"><input type="email" name="EMAIL" placeholder="Your Email" required />
-<input type="submit" value="Sign up" /><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1512822177" /><input type="hidden" name="_mc4wp_form_id" value="629" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></div></div></div></div></div></div></div>                <footer class="footer_wrap widget_area scheme_original">
+</script><!-- for WordPress v4.0.7 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-629" method="post" data-id="629" data-name="Form1" ><div class="mc4wp-form-fields"><input type="email" name="EMAIL" placeholder="Your Email" required />
+<input type="submit" value="Sign up" /><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1512828713" /><input type="hidden" name="_mc4wp_form_id" value="629" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / for WordPress Plugin --></div></div></div></div></div></div></div>                <footer class="footer_wrap widget_area scheme_original">
                     <div class="footer_wrap_inner widget_area_inner">
                         <div class="content_wrap">
                             <div class="columns_wrap"><aside id="text-2" class="widget_number_1 column-1_4 widget widget_text"><h5 class="widget_title">Categories</h5>			<div class="textwidget"><p ><a href="/agaric/">Mushrooms</a>&nbsp;<br />
@@ -1108,7 +681,7 @@ in the kitchen...</div><div class="sc_intro_buttons sc_item_buttons"><div class=
 <a href="/maitake/">Kits &amp; Spawn</a>&nbsp;<br />
 <a href="/portabella/">Compost</a></p>
 </div>
-		</aside><aside id="nav_menu-2" class="widget_number_2 column-1_4 widget widget_nav_menu"><h5 class="widget_title">Menu</h5><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323"><a href="http://mushroom-farm.ancorathemes.com/about-us/">About Us</a></li>
+		</aside><aside id="nav_menu-2" class="widget_number_2 column-1_4 widget widget_nav_menu"><h5 class="widget_title">Menu</h5><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323"><a href="">Sur Nous</a></li>
 <li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="http://mushroom-farm.ancorathemes.com/shop/">Our Products</a></li>
 <li id="menu-item-325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a href="http://mushroom-farm.ancorathemes.com/gallery-masonry/">Gallery</a></li>
 <li id="menu-item-326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-326"><a href="http://mushroom-farm.ancorathemes.com/health-benefits/">Health Benefits</a></li>
