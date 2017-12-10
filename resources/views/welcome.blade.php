@@ -19,19 +19,6 @@
 			<div class="top_panel_wrap_inner top_panel_inner_style_7 top_panel_position_above">
 
                                     <div class="top_panel_top top_panel_top_light">
-                        <div class="content_wrap clearfix">
-                            	<div class="top_panel_top_contact_area">
-		123, New Lenox, Chicago, IL 57403	</div>
-	    <div class="top_panel_top_contact_phone">
-        Call Us For Free Delivery: <span>123-456-7890</span>    </div>
-
-
-<div class="top_panel_top_user_area">
-			<ul id="menu_user" class="menu_user_nav">
-		
-	</ul>
-
-</div>                        </div>
                     </div>
                 
 			<div class="top_panel_middle" style=" background: #EDF0EB;margin-bottom:0;margin-top:0">
@@ -43,13 +30,13 @@
 							</div>
 					<div class="column-4_5 menu_main_wrap">
 						<nav class="menu_main_nav_area menu_hover_fade">
-							<ul id="menu_main" class="menu_main_nav"><li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-55"><a href="#"><span>Accueil</span></a>
+							<ul id="menu_main" class="menu_main_nav"><li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-55"><a href="#"style="padding:7px"><span>Accueil</span></a>
 </li>
-<li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57"><a href="#"><span>Sur nous</span></a>
+<li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57"><a href="#"style="padding:7px"><span>Sur nous</span></a>
 </li>
-<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="http://mushroom-farm.ancorathemes.com/shop/"><span>Nos Produits</span></a></li>
-<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="http://mushroom-farm.ancorathemes.com/health-benefits/"><span>Bio</span></a></li>
-<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="http://mushroom-farm.ancorathemes.com/contacts/"><span>Contactes</span></a></li>
+<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="http://mushroom-farm.ancorathemes.com/shop/"style="padding:7px"><span>Nos Produits</span></a></li>
+<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="http://mushroom-farm.ancorathemes.com/health-benefits/"style="padding:7px"><span>Pourquoi nous?</span></a></li>
+<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="http://mushroom-farm.ancorathemes.com/contacts/"style="padding:7px"><span>Contactez-nous</span></a></li>
 </ul>						</nav>
 													
 												</div>
@@ -63,7 +50,7 @@
         			<div class="header_mobile">
 		<div class="content_wrap">
 			<div class="menu_button icon-menu"></div>
-					<div class="logo">
+					<div class="logo"style="margin-top:8px">
 			<a href="http://mushroom-farm.ancorathemes.com/"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/Untitled-2.png" class="logo_main" alt="" width="131" height="26"></a>
 		</div>
 				</div>
@@ -139,10 +126,11 @@
 			data-responsive_offset="on" 
 
 			
-			style="z-index: 5; white-space: nowrap;">We Offer Fresh Mushrooms at<br>Many Farmers' Markets! </div>
+			style="z-index: 5; white-space: nowrap;">Nous offrons des champignons frais <br> sur de nombreux marchés des <br> agriculteurs!
+</div>
 
 		<!-- LAYER NR. 2 -->
-		<div class="tp-caption Mushroom_button rev-btn " 
+		{{--  <div class="tp-caption Mushroom_button rev-btn " 
 			 id="slide-1-layer-2" 
 			 data-x="100" 
 			 data-y="center" data-voffset="129" 
@@ -161,7 +149,7 @@
 			data-responsive_offset="on" 
 			data-responsive="off"
 			
-			style="z-index: 6; white-space: nowrap;text-transform:uppercase;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">order now </div>
+			style="z-index: 6; white-space: nowrap;text-transform:uppercase;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">order now </div>  --}}
 	</li>
 	<!-- SLIDE  -->
 	<li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/slid-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
@@ -186,10 +174,10 @@
 			data-responsive_offset="on" 
 
 			
-			style="z-index: 5; white-space: nowrap;">We’re Passionate About <br>Mushrooms! </div>
+			style="z-index: 5; white-space: nowrap;">Nous sommes passionnés pour <br> les champignons!</div>
 
 		<!-- LAYER NR. 2 -->
-		<div class="tp-caption Mushroom_button rev-btn " 
+		{{--  <div class="tp-caption Mushroom_button rev-btn " 
 			 id="slide-2-layer-2" 
 			 data-x="100" 
 			 data-y="center" data-voffset="129" 
@@ -208,7 +196,7 @@
 			data-responsive_offset="on" 
 			data-responsive="off"
 			
-			style="z-index: 6; white-space: nowrap;text-transform:uppercase;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">order now </div>
+			style="z-index: 6; white-space: nowrap;text-transform:uppercase;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">order now </div>  --}}
 	</li>
 	<!-- SLIDE  -->
 	<li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/slid-3-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
@@ -233,10 +221,10 @@
 			data-responsive_offset="on" 
 
 			
-			style="z-index: 5; white-space: nowrap;">Enjoy The Health Benefits of<br> Medicinal Mushrooms </div>
+			style="z-index: 5; white-space: nowrap;">Profitez des bienfaits pour la santé des <br> champignons médicinaux </div>
 
 		<!-- LAYER NR. 2 -->
-		<div class="tp-caption Mushroom_button rev-btn " 
+		{{--  <div class="tp-caption Mushroom_button rev-btn " 
 			 id="slide-3-layer-2" 
 			 data-x="100" 
 			 data-y="center" data-voffset="129" 
@@ -255,7 +243,7 @@
 			data-responsive_offset="on" 
 			data-responsive="off"
 			
-			style="z-index: 6; white-space: nowrap;text-transform:uppercase;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">order now </div>
+			style="z-index: 6; white-space: nowrap;text-transform:uppercase;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">order now </div>  --}}
 	</li>
 </ul>
 <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
@@ -383,14 +371,24 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 <div class="content_wrap">
 <div class="content">
 <article class="itemscope post_item post_item_single post_featured_default post_format_standard post-4 page type-page status-publish hentry" itemscope itemtype="http://schema.org/Article">
-<section class="post_content" itemprop="articleBody"><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469470634125 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469525203354"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808567954 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468927187508"><div class="wpb_wrapper"><div id="sc_services_425256846_wrap" class="sc_services_wrap"><div id="sc_services_425256846" class="sc_services sc_services_style_services-1 sc_services_type_images  margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_services_title sc_item_title">The Farm</h5><div class="sc_services_descr sc_item_descr">We’re passionate about mushrooms</div><div class="sc_columns columns_wrap"><div class="col-md-2"></div> <div class="col-md-4 column_padding_bottom">			<div id="sc_services_425256846_2"				class="sc_services_item sc_services_item_2 even"
+<section class="post_content" itemprop="articleBody"><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469470634125 vc_row-has-fill">
+</div>
+
+<div class="vc_row-full-width vc_clearfix"></div>
+<div class="container-fluid">
+	<div class="text-center"style="font-size:26px;margin:81px 0"><p>Produire une alimentation saine en revalorisant les ressources organiques de notre ville.</p></div>
+</div>
+
+<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808567954 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468927187508"style="margin-bottom:0"><div class="wpb_wrapper"><div id="sc_services_425256846_wrap" class="sc_services_wrap">
+
+<div id="sc_services_425256846" class="sc_services sc_services_style_services-1 sc_services_type_images margin_bottom_large" style="width:100%;"><h5 class="sc_services_title sc_item_title"style="padding:40px">Mes produits</h5><div class="sc_columns columns_wrap"><div class="col-md-2"></div> <div class="col-md-4 column_padding_bottom">			<div id="sc_services_425256846_2"				class="sc_services_item sc_services_item_2 even"
 				>
 									<div class="sc_services_item_featured post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-5.jpg" data-title="Care and Handling">
-	<img class="wp-post-image" width="370" height="350" alt="Care and Handling" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-5-370x240.jpg"style="height:300px"></div>
+	<img class="wp-post-image" width="370" height="350" alt="Care and Handling" src="img/champignon_blanc2.jpg"style="height:300px;border-radius:25px"></div>
 						</div>
 									<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/care-and-handling/">Care and Handling</a></h4>
+					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/care-and-handling/">Champignons Blancs</a></h4>
 					<div class="sc_services_item_description">
 						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
 				</div>
@@ -399,153 +397,141 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 				>
 									<div class="sc_services_item_featured post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-4.jpg" data-title="The Growing Process">
-	<img class="wp-post-image" width="370" height="350" alt="The Growing Process" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-4-370x240.jpg"style="height:300px">	</div>
+	<img class="wp-post-image" width="370" height="350" alt="The Growing Process" src="img/champignon_gris2.jpg"style="height:300px;border-radius:25px">	</div>
 						</div>
 									<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/the-growing-process/">The Growing Process</a></h4>
+					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/the-growing-process/">Champignons Gris</a></h4>
 					<div class="sc_services_item_description">
 						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
 				</div>
 			</div>
-		</div><div class="col-md-2"></div> </div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469603758005"><div class="wpb_wrapper"><div id="sc_services_926581663_wrap" class="sc_services_wrap"><div id="sc_services_926581663" class="sc_services sc_services_style_services-5 sc_services_type_icons  mushroom_img margin_top_large margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title">Health Benefits</h5><div class="sc_services_descr sc_item_descr">GMO-free organic products for healthy living</div><div class="sc_service_container sc_align_"><div class="sc_services_image"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/mush-1.png" alt=""></div><div class="sc_columns columns_wrap"><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_1"				class="sc_services_item sc_services_item_1 odd first"
+		</div><div class="col-md-2"></div> </div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469603758005"><div class="wpb_wrapper"><div id="sc_services_926581663_wrap" class="sc_services_wrap"><div id="sc_services_926581663" class="sc_services sc_services_style_services-5 sc_services_type_icons  mushroom_img margin_top_large margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title"style="padding:40px">Bénéfices pour la santé</h5><div class="sc_service_container sc_align_"><div class="sc_services_image"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/mush-1.png" alt=""></div><div class="sc_columns columns_wrap"><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_1"				class="sc_services_item sc_services_item_1 odd first"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/kicks-up-your-metabolism/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/kicks-up-your-metabolism/">Kicks Up Your Metabolism</a></h4>
-					<div class="sc_services_item_description">
-						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
+					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/kicks-up-your-metabolism/">Stimule votre métabolisme</a></h4>
 				</div>
 			</div>
 		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_2"				class="sc_services_item sc_services_item_2 even"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/increases-your-vitamin-d/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/increases-your-vitamin-d/">Increases Your Vitamin D</a></h4>
-					<div class="sc_services_item_description">
-						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
+					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/increases-your-vitamin-d/">Augmente votre vitamine D</a></h4>
 				</div>
 			</div>
 		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_3"				class="sc_services_item sc_services_item_3 odd"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/boosts-your-immune-system/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/boosts-your-immune-system/">Boosts Your Immune System</a></h4>
-					<div class="sc_services_item_description">
-						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
+					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/boosts-your-immune-system/">Booste votre système immunitaire</a></h4>
 				</div>
 			</div>
 		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_4"				class="sc_services_item sc_services_item_4 even"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/good-for-your-bladder/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/good-for-your-bladder/">Good for Your Bladder</a></h4>
-					<div class="sc_services_item_description">
-						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
+					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/good-for-your-bladder/">Bon pour votre vessie</a></h4>
 				</div>
 			</div>
 		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_5"				class="sc_services_item sc_services_item_5 odd"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/gives-you-antioxidants/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/gives-you-antioxidants/">Gives You Antioxidants</a></h4>
-					<div class="sc_services_item_description">
-						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
+					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/gives-you-antioxidants/">Vous donne des antioxydants</a></h4>
 				</div>
 			</div>
 		</div><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_6"				class="sc_services_item sc_services_item_6 even"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/improves-your-heart-health/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/improves-your-heart-health/">Improves Your Heart Health</a></h4>
-					<div class="sc_services_item_description">
-						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerasellus portusce.</p>					</div>
+					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/improves-your-heart-health/">Améliore la santé de votre coeur</a></h4>
 				</div>
 			</div>
 		</div></div></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div>
     
 
-<div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469457330735 vc_row-has-fill inverse_colors"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469090596713"><div class="wpb_wrapper"><div id="sc_team_224560628_wrap" class="sc_team_wrap"><div id="sc_team_224560628" class="sc_team sc_team_style_team-3  white_blog margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_team_title sc_item_title">Our Team</h5><div class="sc_team_descr sc_item_descr">Meet the specialists that work at our farm</div><div class="sc_columns columns_wrap"><div class="column-1_4 column_padding_bottom">			<div id="sc_team_224560628_1"				class="sc_team_item sc_team_item_1 odd first"
+<div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469457330735 vc_row-has-fill inverse_colors"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469090596713"><div class="wpb_wrapper"><div id="sc_team_224560628_wrap" class="sc_team_wrap"><div id="sc_team_224560628" class="sc_team sc_team_style_team-3  white_blog margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_team_title sc_item_title">Notre equipe</h5><div class="text-center"style="padding-bottom:20px">Rencontrez les spécialistes qui travaillent à notre ferme</div><div class="sc_columns columns_wrap">
+		<div class="col-md-4 column_padding_bottom">			
+			<div id="sc_team_224560628_1"class="sc_team_item sc_team_item_1 odd first">
+				<div class="sc_team_item_avatar">
+					<img class="wp-post-image" width="370" height="370" alt="Nathan Smith" src="img/photo01.jpeg">					
+					<div class="sc_team_item_hover"></div>
+				</div>
+				<div class="sc_team_item_info">
+					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/nathan-smith/">Fayrouz K</a></h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 column_padding_bottom">			<div id="sc_team_224560628_2"				class="sc_team_item sc_team_item_2 even"
 				>
-				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Nathan Smith" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/team-01-370x370.jpg">					<div class="sc_team_item_hover">
-						<div class="sc_team_item_socials"><div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny"><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_instagramm"><span class="icon-instagramm"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_linkedin"><span class="icon-linkedin"></span></a></div></div></div>
+				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Laura Palmer" src="img/photo03.jpeg" style="max-height:189px">					<div class="sc_team_item_hover">
 					</div>
 				</div>
 				<div class="sc_team_item_info">
-					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/nathan-smith/">Nathan Smith</a></h5>
-					<div class="sc_team_item_position">Mushroom Farmer</div>
+					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/laura-palmer/">Majid EH</a></h5>
 				</div>
 			</div>
-		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_team_224560628_2"				class="sc_team_item sc_team_item_2 even"
+		</div>
+		<div class="col-md-4 column_padding_bottom">			<div id="sc_team_224560628_3"				class="sc_team_item sc_team_item_3 odd"
 				>
-				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Laura Palmer" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/team-03-370x370.jpg">					<div class="sc_team_item_hover">
-						<div class="sc_team_item_socials"><div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny"><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_instagramm"><span class="icon-instagramm"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_linkedin"><span class="icon-linkedin"></span></a></div></div></div>
+				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Joe Carter" src="img/photo04.jpeg">					<div class="sc_team_item_hover">
 					</div>
 				</div>
 				<div class="sc_team_item_info">
-					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/laura-palmer/">Laura Palmer</a></h5>
-					<div class="sc_team_item_position">Biologist</div>
+					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/joe-carter/">Yassin B</a></h5>
 				</div>
 			</div>
-		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_team_224560628_3"				class="sc_team_item sc_team_item_3 odd"
+		</div>
+		<div class="col-md-3 column_padding_bottom">			
+			<div id="sc_team_224560628_1"class="sc_team_item sc_team_item_1">
+				<div class="sc_team_item_avatar">
+					<img class="wp-post-image" width="370" height="370" alt="Nathan Smith" src="img/photo05.jpeg">					
+					<div class="sc_team_item_hover"></div>
+				</div>
+				<div class="sc_team_item_info">
+					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/nathan-smith/">Yassine B</a></h5>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 column_padding_bottom">			
+			<div id="sc_team_224560628_1"class="sc_team_item sc_team_item_1 odd first">
+				<div class="sc_team_item_avatar">
+					<img class="wp-post-image" width="370" height="370" alt="Nathan Smith" src="img/photo06.jpeg">					
+					<div class="sc_team_item_hover"></div>
+				</div>
+				<div class="sc_team_item_info">
+					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/nathan-smith/">Fayrouz K</a></h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 column_padding_bottom">			<div id="sc_team_224560628_2"				class="sc_team_item sc_team_item_2 even"
 				>
-				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Joe Carter" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/team-02-370x370.jpg">					<div class="sc_team_item_hover">
-						<div class="sc_team_item_socials"><div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny"><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_instagramm"><span class="icon-instagramm"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_linkedin"><span class="icon-linkedin"></span></a></div></div></div>
+				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Laura Palmer" src="img/photo07.jpeg" style="max-height:129px">					<div class="sc_team_item_hover">
 					</div>
 				</div>
 				<div class="sc_team_item_info">
-					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/joe-carter/">Joe Carter</a></h5>
-					<div class="sc_team_item_position">Manager</div>
+					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/laura-palmer/">Majid EH</a></h5>
 				</div>
 			</div>
-		</div><div class="column-1_4 column_padding_bottom">			<div id="sc_team_224560628_4"				class="sc_team_item sc_team_item_4 even"
+		</div>
+		<div class="col-md-3 column_padding_bottom">			<div id="sc_team_224560628_3"				class="sc_team_item sc_team_item_3 odd"
 				>
-				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Melissa Cox" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/team-04-370x370.jpg">					<div class="sc_team_item_hover">
-						<div class="sc_team_item_socials"><div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny"><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_instagramm"><span class="icon-instagramm"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_linkedin"><span class="icon-linkedin"></span></a></div></div></div>
+				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Joe Carter" src="img/photo08.jpeg">					<div class="sc_team_item_hover">
 					</div>
 				</div>
 				<div class="sc_team_item_info">
-					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/melissa-cox/">Melissa Cox</a></h5>
-					<div class="sc_team_item_position">Accountant</div>
+					<h5 class="sc_team_item_title"><a href="http://mushroom-farm.ancorathemes.com/team/joe-carter/">Yassin B</a></h5>
 				</div>
 			</div>
-		</div></div></div><!-- /.sc_team --></div><!-- /.sc_team_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="sc_section margin_top_large aligncenter">
-      </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469444183926"><div class="wpb_wrapper"><div id="sc_services_673534069_wrap" class="sc_services_wrap"><div id="sc_services_673534069" class="sc_services sc_services_style_services-1 sc_services_type_icons  margin_top_null margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title">Why Choose Us?</h5><div class="sc_services_descr sc_item_descr">We Deliver to Every Store in Town</div><div class="sc_columns columns_wrap"><div class="column-1_3 column_padding_bottom">			<div id="sc_services_673534069_1"				class="sc_services_item sc_services_item_1 odd first"
-				>
-				<a href="http://mushroom-farm.ancorathemes.com/services/delivery-services/"><span class="sc_icon icon-6"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/delivery-services/">Delivery Services</a></h4>
-					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
-				</div>
-			</div>
-		</div><div class="column-1_3 column_padding_bottom">			<div id="sc_services_673534069_2"				class="sc_services_item sc_services_item_2 even"
-				>
-				<a href="http://mushroom-farm.ancorathemes.com/services/certified-products/"><span class="sc_icon icon-7"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/certified-products/">Certified Products</a></h4>
-					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
-				</div>
-			</div>
-		</div><div class="column-1_3 column_padding_bottom">			<div id="sc_services_673534069_3"				class="sc_services_item sc_services_item_3 odd"
-				>
-				<a href="http://mushroom-farm.ancorathemes.com/services/recycled-packages/"><span class="sc_icon icon-8"></span></a>				<div class="sc_services_item_content">
-					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/recycled-packages/">Recycled Packages</a></h4>
-					<div class="sc_services_item_description">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
-				</div>
-			</div>
-		</div></div><div class="sc_services_button sc_item_button"><a href="/learn/" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">LEARN MORE</a></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468933527625"><div class="wpb_wrapper"><div id="sc_blogger_1210243515" class="sc_blogger layout_classic_3 template_masonry margin_top_tiny margin_bottom_medium  sc_blogger_horizontal"><h5 class="sc_blogger_title sc_item_title">From the Blog</h5><div class="sc_blogger_descr sc_item_descr">Bring The Sparkle to Your Meals!</div><div id="sc_blogger_1210243515_scroll" class="sc_scroll sc_scroll_horizontal sc_slider_noresize swiper-slider-container scroll-container" style="width:100%;"><div class="sc_scroll_wrapper swiper-wrapper"><div class="sc_scroll_slide swiper-slide"><div class="isotope_wrap" data-columns="3">		<div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3					">
+		</div>
+		</div></div><!-- /.sc_team --></div><!-- /.sc_team_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"></div><div class="vc_row wpb_row vc_row-fluid"></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468933527625"><div class="wpb_wrapper"><div id="sc_blogger_1210243515" class="sc_blogger layout_classic_3 template_masonry margin_top_tiny margin_bottom_medium  sc_blogger_horizontal"><h5 class="sc_blogger_title sc_item_title">Recettes avec les champignons</h5><div class="text-center"style="margin-bottom:20px">Apportez l'étincelle à vos repas!</div><div id="sc_blogger_1210243515_scroll" class="sc_scroll sc_scroll_horizontal sc_slider_noresize swiper-slider-container scroll-container" style="width:100%;"><div class="sc_scroll_wrapper swiper-wrapper"><div class="sc_scroll_slide swiper-slide"><div class="isotope_wrap" data-columns="3">		<div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3					">
 			<div class="post_item post_item_classic post_item_classic_3				  post_format_standard odd">
 				
 									<div class="post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-12.jpg" data-title="Sautéed Mushrooms">
-	<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/sauteed-mushrooms/"><img class="wp-post-image" width="370" height="240" alt="Sautéed Mushrooms" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-12-370x240.jpg"></a>	</div>
+	<img class="wp-post-image" width="370" height="240" alt="Sautéed Mushrooms" src="img/rec1.jpg"style="height:300px">	</div>
 						</div>
 				
 				<div class="post_content isotope_item_content">
-					
-					<div class="post_info">
-			<span class="post_info_item post_info_posted"> <a href="http://mushroom-farm.ancorathemes.com/sauteed-mushrooms/" class="post_info_date">July 6, 2016</a></span>
-		</div>							<h6 class="post_title"><a href="http://mushroom-farm.ancorathemes.com/sauteed-mushrooms/">Sautéed Mushrooms</a></h6>
+											<h6 class="post_title"><a href="http://mushroom-farm.ancorathemes.com/sauteed-mushrooms/">tajinde poulet aux champignons(plat marocains)</a></h6>
 							
 					<div class="post_descr">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p><div class="post_info">
-			<span class="post_info_item post_info_posted_by"><a href="http://mushroom-farm.ancorathemes.com/author/anc_admin/" class="post_info_author">Philip James</a></span>
-			<span class="post_info_item post_info_counters">	<a class="post_counters_item post_counters_views  icon-12" title="Views - 241" href="http://mushroom-farm.ancorathemes.com/sauteed-mushrooms/"><span class="post_counters_number">241</span></a>
-		<a class="post_counters_item post_counters_comments icon-13-1" title="Comments - 0" href="http://mushroom-farm.ancorathemes.com/sauteed-mushrooms/#respond"><span class="post_counters_number">0</span></a>
+						<p><strong>Ingrédients: </strong>sel, poivre, safran curcuma, Gingembre (pour un goût plus prononcé vous pouvez rajouter du Curry), crème fraîche (10 cl), huile d'olive, 1 oignon émincé, 2 gousses d'ail haché une boîte de champignons de Paris carottes coupées en rondelles surgelées de poulet en morceaux</p><div class="post_info">
 	</span>
 		</div>					</div>
 
@@ -557,22 +543,15 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 				
 									<div class="post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-11.jpg" data-title="Mushroom and Egg Tacos">
-	<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/mushroom-and-egg-tacos/"><img class="wp-post-image" width="370" height="240" alt="Mushroom and Egg Tacos" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-11-370x240.jpg"></a>	</div>
+	<img class="wp-post-image" width="370" height="240" alt="Mushroom and Egg Tacos" src="img/rec2.png"style="height:300px"></div>
 						</div>
 				
 				<div class="post_content isotope_item_content">
-					
-					<div class="post_info">
-			<span class="post_info_item post_info_posted"> <a href="http://mushroom-farm.ancorathemes.com/mushroom-and-egg-tacos/" class="post_info_date">July 6, 2016</a></span>
-		</div>							<h6 class="post_title"><a href="http://mushroom-farm.ancorathemes.com/mushroom-and-egg-tacos/">Mushroom and Egg Tacos</a></h6>
+					<h6 class="post_title"><a href="http://mushroom-farm.ancorathemes.com/mushroom-and-egg-tacos/">Poulet à la crème des champignons</a></h6>
 							
 					<div class="post_descr">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p><div class="post_info">
-			<span class="post_info_item post_info_posted_by"><a href="http://mushroom-farm.ancorathemes.com/author/anc_admin/" class="post_info_author">Philip James</a></span>
-			<span class="post_info_item post_info_counters">	<a class="post_counters_item post_counters_views  icon-12" title="Views - 209" href="http://mushroom-farm.ancorathemes.com/mushroom-and-egg-tacos/"><span class="post_counters_number">209</span></a>
-		<a class="post_counters_item post_counters_comments icon-13-1" title="Comments - 0" href="http://mushroom-farm.ancorathemes.com/mushroom-and-egg-tacos/#respond"><span class="post_counters_number">0</span></a>
-	</span>
-		</div>					</div>
+						<p><strong>Ingrédients: </strong>3 grands filets de cuisses de poulet désossés, un oignon deux gousses d'ails, un pot de 25 cl crème fraîche épaisse, 150 grammes de champignons frais, 1 cuillère à soupe de maïzena (à défaut de farine), n bouillon de poule bio de préférence dilué dans 50 cl d'eau chaude, quelques feuilles de persil, 1 cuillére à café  de chaque  gingembre, sel, poivre fraichement moulu, selon le gout, une petite pincée de noix de muscade en poudre (l'équivalent de 1/2 càc)</p>
+					</div>
 
 				</div>				<!-- /.post_content -->
 			</div>	<!-- /.post_item -->
@@ -582,22 +561,15 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 				
 									<div class="post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-10.jpg" data-title="Fettuccine with Chicken and Mushrooms">
-	<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/fettuccine-with-chicken-and-mushrooms/"><img class="wp-post-image" width="370" height="240" alt="Fettuccine with Chicken and Mushrooms" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-10-370x240.jpg"></a>	</div>
+	<img class="wp-post-image" width="370" height="240" alt="Fettuccine with Chicken and Mushrooms" src="img/rec3.png"style="height:300px">	</div>
 						</div>
 				
 				<div class="post_content isotope_item_content">
-					
-					<div class="post_info">
-			<span class="post_info_item post_info_posted"> <a href="http://mushroom-farm.ancorathemes.com/fettuccine-with-chicken-and-mushrooms/" class="post_info_date">July 6, 2016</a></span>
-		</div>							<h6 class="post_title"><a href="http://mushroom-farm.ancorathemes.com/fettuccine-with-chicken-and-mushrooms/">Fettuccine with Chicken and Mushrooms</a></h6>
+			<h6 class="post_title"><a href="http://mushroom-farm.ancorathemes.com/fettuccine-with-chicken-and-mushrooms/">Gratin de pommes de terre aux champignons</a></h6>
 							
 					<div class="post_descr">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p><div class="post_info">
-			<span class="post_info_item post_info_posted_by"><a href="http://mushroom-farm.ancorathemes.com/author/anc_admin/" class="post_info_author">Philip James</a></span>
-			<span class="post_info_item post_info_counters">	<a class="post_counters_item post_counters_views  icon-12" title="Views - 199" href="http://mushroom-farm.ancorathemes.com/fettuccine-with-chicken-and-mushrooms/"><span class="post_counters_number">199</span></a>
-		<a class="post_counters_item post_counters_comments icon-13-1" title="Comments - 0" href="http://mushroom-farm.ancorathemes.com/fettuccine-with-chicken-and-mushrooms/#respond"><span class="post_counters_number">0</span></a>
-	</span>
-		</div>					</div>
+						<p><strong>Ingredients: </strong>1 tasse = 250 ml, 1 cuillère à soupe de beurre non salé,1 tasse de crème épaisse, 1 gousse d'ail, dégermée, 3 brins de thym frais, plus œ cuil. a thé séchéé, sel et poivre, au goût, 1 Kg de pommes de terre, 1 cuillère à soupe. l'huile extra vierge d'olive, 500 g de champignons frais émincés, 4 cuillères à soupe râpé de Parmigiano-Reggiano (à défaut un autre fromage râpé)</p>
+					</div>
 
 				</div>				<!-- /.post_content -->
 			</div>	<!-- /.post_item -->
@@ -609,43 +581,11 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-5.jpg" data-title="Mushroom Varieties Overview">
 	<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/mushroom-varieties-overview/"><img class="wp-post-image" width="370" height="240" alt="Mushroom Varieties Overview" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/recipe-5-370x240.jpg"></a>	</div>
 						</div>
-				
-				<div class="post_content isotope_item_content">
-					
-					<div class="post_info">
-			<span class="post_info_item post_info_posted"> <a href="http://mushroom-farm.ancorathemes.com/mushroom-varieties-overview/" class="post_info_date">April 2, 2016</a></span>
-		</div>							<h6 class="post_title"><a href="http://mushroom-farm.ancorathemes.com/mushroom-varieties-overview/">Mushroom Varieties Overview</a></h6>
-							
-					<div class="post_descr">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p><div class="post_info">
-			<span class="post_info_item post_info_posted_by"><a href="http://mushroom-farm.ancorathemes.com/author/anc_admin/" class="post_info_author">Philip James</a></span>
-			<span class="post_info_item post_info_counters">	<a class="post_counters_item post_counters_views  icon-12" title="Views - 163" href="http://mushroom-farm.ancorathemes.com/mushroom-varieties-overview/"><span class="post_counters_number">163</span></a>
-		<a class="post_counters_item post_counters_comments icon-13-1" title="Comments - 0" href="http://mushroom-farm.ancorathemes.com/mushroom-varieties-overview/#respond"><span class="post_counters_number">0</span></a>
-	</span>
-		</div>					</div>
-
-				</div>				<!-- /.post_content -->
+				<!-- /.post_content -->
 			</div>	<!-- /.post_item -->
 		</div>						<!-- /.isotope_item -->
-		</div></div></div><div id="sc_blogger_1210243515_scroll_bar" class="sc_scroll_bar sc_scroll_bar_horizontal sc_blogger_1210243515_scroll_bar"></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808562274 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="sc_clients_943675_wrap" class="sc_clients_wrap"><div id="sc_clients_943675" class="sc_clients sc_clients_style_clients-1  margin_top_large margin_bottom_medium" style="width:100%;"><h5 class="sc_clients_title sc_item_title">Awards</h5><div class="sc_clients_descr sc_item_descr">We grow the best mushrooms!</div><div class="sc_columns columns_wrap"><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_1" class="sc_clients_item sc_clients_item_1 odd first">
-								<div class="sc_client_image"><img class="wp-post-image" alt="Award 6" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award6.png"></div>
-							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_2" class="sc_clients_item sc_clients_item_2 even">
-								<div class="sc_client_image"><img class="wp-post-image" alt="Award 5" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award5.png"></div>
-							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_3" class="sc_clients_item sc_clients_item_3 odd">
-								<div class="sc_client_image"><img class="wp-post-image" alt="Award 4" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award4.png"></div>
-							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_4" class="sc_clients_item sc_clients_item_4 even">
-								<div class="sc_client_image"><img class="wp-post-image" alt="Award 3" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award2.png"></div>
-							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_5" class="sc_clients_item sc_clients_item_5 odd">
-								<div class="sc_client_image"><img class="wp-post-image" alt="Award 2" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award1.png"></div>
-							</div>
-		</div><div class="column-1_6 column_padding_bottom">			<div id="sc_clients_943675_6" class="sc_clients_item sc_clients_item_6 even">
-								<div class="sc_client_image"><img class="wp-post-image" alt="Award 1" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/award3.png"></div>
-							</div>
-		</div></div></div><!-- /.sc_clients --></div><!-- /.sc_clients_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+		</div></div></div><div id="sc_blogger_1210243515_scroll_bar" class="sc_scroll_bar sc_scroll_bar_horizontal sc_blogger_1210243515_scroll_bar"></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+		<div class="vc_row-full-width vc_clearfix"></div>
 
 				</section> <!-- </section> class="post_content" itemprop="articleBody"> -->
 			</article> <!-- </article> class="itemscope post_item post_item_single post_featured_default post_format_standard post-4 page type-page status-publish hentry" itemscope itemtype="http://schema.org/Article"> -->	<section class="related_wrap related_wrap_empty"></section>
@@ -653,25 +593,45 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 		</div> <!-- </div> class="content"> -->
 	</div> <!-- </div> class="content_wrap"> -->			
 			</div>		<!-- </.page_content_wrap> -->
-			
-			            <div class="footer-image">
-            <div class="vc_row wpb_row vc_row-fluid inverse_colors"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="sc_section"><div class="sc_section_inner"><h5 class="sc_section_title sc_item_title">Newsletter</h5><div class="sc_section_descr sc_item_descr">Get the latest news and special offers</div><div class="sc_section_content_wrap"><script type="text/javascript">(function() {
-	if (!window.mc4wp) {
-		window.mc4wp = {
-			listeners: [],
-			forms    : {
-				on: function (event, callback) {
-					window.mc4wp.listeners.push({
-						event   : event,
-						callback: callback
-					});
-				}
-			}
-		}
-	}
-})();
-</script><!-- for WordPress v4.0.7 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-629" method="post" data-id="629" data-name="Form1" ><div class="mc4wp-form-fields"><input type="email" name="EMAIL" placeholder="Your Email" required />
-<input type="submit" value="Sign up" /><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1512828713" /><input type="hidden" name="_mc4wp_form_id" value="629" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / for WordPress Plugin --></div></div></div></div></div></div></div>                <footer class="footer_wrap widget_area scheme_original">
+
+<div class="container-fluid"style="background-color:#edf0ec">
+<div class="container">
+	<div class="title text-center">
+		<h5>Contactez-nous</h5>
+	</div>
+	<form class="form-horizontal" action="/action_page.php">
+    	<div class="form-group">
+      	<label class="control-label col-sm-2" for="email">Email:</label>
+      	<div class="col-sm-10">
+      	  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      	</div>
+    	</div>
+    	<div class="form-group">
+    	  <label class="control-label col-sm-2" for="pwd">Sujet:</label>
+    	  <div class="col-sm-10">          
+    	    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    	  </div>
+    	</div>
+    	<div class="form-group">
+  			<label class="control-label col-sm-2"for="comment">Comment:</label>
+			<div class="col-sm-10">
+  				<textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+		</div>
+    	<div class="form-group">        
+      	<div class="col-sm-offset-2 col-sm-10">
+       	 <button type="submit" class="btn btn-default">Submit</button>
+      	</div>
+    	</div>
+  	</form>
+</div>
+</div>			            
+						
+						
+						
+						<div class="footer-image">
+            <div class="vc_row wpb_row vc_row-fluid inverse_colors">
+			</div>                <footer class="footer_wrap widget_area scheme_original">
                     <div class="footer_wrap_inner widget_area_inner">
                         <div class="content_wrap">
                             <div class="columns_wrap"><aside id="text-2" class="widget_number_1 column-1_4 widget widget_text"><h5 class="widget_title">Categories</h5>			<div class="textwidget"><p ><a href="/agaric/">Mushrooms</a>&nbsp;<br />
@@ -817,6 +777,7 @@ var mc4wp_forms_config = [];
 <!--[if lte IE 9]>
 <script type='text/javascript' src='http://mushroom-farm.ancorathemes.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.0.7'></script>
 <![endif]-->
+{{--  <script src="{{url('js/app.js')}}"></script>  --}}
 
 </body>
 </html>
