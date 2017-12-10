@@ -111,7 +111,7 @@
 							</div>
 		</div>
 		<div class="mask"></div>
-	</div>		<section class="container-fluid slider_wrap slider_boxed slider_engine_revo slider_alias_mushroom-slider-1 slider_with_over_content" style=" background: #EDF0EB">
+	</div>		<section class="container-fluid slider_wrap slider_boxed slider_engine_revo slider_alias_mushroom-slider-1 slider_with_over_content" style="padding: 0px; background: #EDF0EB">
 			<link href="http://fonts.googleapis.com/css?family=Signika+Negative%3A600" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
 <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
 <!-- START REVOLUTION SLIDER 5.2.6 auto mode -->
@@ -383,11 +383,11 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 <div class="content_wrap">
 <div class="content">
 <article class="itemscope post_item post_item_single post_featured_default post_format_standard post-4 page type-page status-publish hentry" itemscope itemtype="http://schema.org/Article">
-<section class="post_content" itemprop="articleBody"><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469470634125 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469525203354"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808567954 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468927187508"><div class="wpb_wrapper"><div id="sc_services_425256846_wrap" class="sc_services_wrap"><div id="sc_services_425256846" class="sc_services sc_services_style_services-1 sc_services_type_images  margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_services_title sc_item_title">The Farm</h5><div class="sc_services_descr sc_item_descr">We’re passionate about mushrooms</div><div class="sc_columns columns_wrap"><div class="col-sm-6 column_padding_bottom">			<div id="sc_services_425256846_2"				class="sc_services_item sc_services_item_2 even"
+<section class="post_content" itemprop="articleBody"><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469470634125 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469525203354"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1467808567954 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468927187508"><div class="wpb_wrapper"><div id="sc_services_425256846_wrap" class="sc_services_wrap"><div id="sc_services_425256846" class="sc_services sc_services_style_services-1 sc_services_type_images  margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_services_title sc_item_title">The Farm</h5><div class="sc_services_descr sc_item_descr">We’re passionate about mushrooms</div><div class="sc_columns columns_wrap"><div class="col-md-2"></div> <div class="col-md-4 column_padding_bottom">			<div id="sc_services_425256846_2"				class="sc_services_item sc_services_item_2 even"
 				>
 									<div class="sc_services_item_featured post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-5.jpg" data-title="Care and Handling">
-	<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/services/care-and-handling/"><img class="wp-post-image" width="370" height="240" alt="Care and Handling" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-5-370x240.jpg"></a>	</div>
+	<img class="wp-post-image" width="370" height="350" alt="Care and Handling" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-5-370x240.jpg"style="height:300px"></div>
 						</div>
 									<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/care-and-handling/">Care and Handling</a></h4>
@@ -395,11 +395,11 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
 				</div>
 			</div>
-		</div><div class="col-sm-6 column_padding_bottom">			<div id="sc_services_425256846_3"				class="sc_services_item sc_services_item_3 odd"
+		</div><div class="col-md-4 column_padding_bottom">			<div id="sc_services_425256846_3"				class="sc_services_item sc_services_item_3 odd"
 				>
 									<div class="sc_services_item_featured post_featured">
 							<div class="post_thumb" data-image="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-4.jpg" data-title="The Growing Process">
-	<a class="hover_icon hover_icon_link" href="http://mushroom-farm.ancorathemes.com/services/the-growing-process/"><img class="wp-post-image" width="370" height="240" alt="The Growing Process" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-4-370x240.jpg"></a>	</div>
+	<img class="wp-post-image" width="370" height="350" alt="The Growing Process" src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/service-4-370x240.jpg"style="height:300px">	</div>
 						</div>
 									<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/the-growing-process/">The Growing Process</a></h4>
@@ -407,7 +407,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 						<p>Lorem ipsum dolor sit amet, consectetuer adipit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce...</p>					</div>
 				</div>
 			</div>
-		</div></div><div class="sc_services_button sc_item_button"><a href="/health-benefits/" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">LEARN MORE</a></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469603758005"><div class="wpb_wrapper"><div id="sc_services_926581663_wrap" class="sc_services_wrap"><div id="sc_services_926581663" class="sc_services sc_services_style_services-5 sc_services_type_icons  mushroom_img margin_top_large margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title">Health Benefits</h5><div class="sc_services_descr sc_item_descr">GMO-free organic products for healthy living</div><div class="sc_service_container sc_align_"><div class="sc_services_image"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/mush-1.png" alt=""></div><div class="sc_columns columns_wrap"><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_1"				class="sc_services_item sc_services_item_1 odd first"
+		</div><div class="col-md-2"></div> </div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469603758005"><div class="wpb_wrapper"><div id="sc_services_926581663_wrap" class="sc_services_wrap"><div id="sc_services_926581663" class="sc_services sc_services_style_services-5 sc_services_type_icons  mushroom_img margin_top_large margin_bottom_huge" style="width:100%;"><h5 class="sc_services_title sc_item_title">Health Benefits</h5><div class="sc_services_descr sc_item_descr">GMO-free organic products for healthy living</div><div class="sc_service_container sc_align_"><div class="sc_services_image"><img src="http://mushroom-farm.ancorathemes.com/wp-content/uploads/2016/07/mush-1.png" alt=""></div><div class="sc_columns columns_wrap"><div class="column-1_2 column_padding_bottom">			<div id="sc_services_926581663_1"				class="sc_services_item sc_services_item_1 odd first"
 				>
 				<a href="http://mushroom-farm.ancorathemes.com/services/kicks-up-your-metabolism/"><span class="sc_icon icon-book-open"></span></a>				<div class="sc_services_item_content">
 					<h4 class="sc_services_item_title"><a href="http://mushroom-farm.ancorathemes.com/services/kicks-up-your-metabolism/">Kicks Up Your Metabolism</a></h4>
