@@ -444,55 +444,83 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 		</div></div></div></div><!-- /.sc_services --></div><!-- /.sc_services_wrap --></div></div></div></div>
     
 
-<div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469457330735 vc_row-has-fill inverse_colors"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469090596713"><div class="wpb_wrapper"><div id="sc_team_224560628_wrap" class="sc_team_wrap"><div id="sc_team_224560628" class="sc_team sc_team_style_team-3  white_blog margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_team_title sc_item_title">Notre equipe</h5><div class="text-center"style="padding-bottom:20px;color:white">Rencontrez les spécialistes qui travaillent à notre ferme</div>
-	<div class="row lesimages">
-		<div class="col-sm-4">
-			<img src="img/photo001.jpg" alt="" style="border-radius:50px">
-			<div class="text-center">
-				<h6 style="margin-top:0;color:white">Majid EH</h6>
-			</div>
-		</div>
-		<div class="col-sm-4">
-			<img src="img/photo001.jpg" alt="" style="border-radius:50px">
-			<div class="text-center">
-				<h6 style="margin-top:0;color:white">Majid EH</h6>
-			</div>
-		</div>
-		<div class="col-sm-4">
-			<img src="img/photo001.jpg" alt="" style="border-radius:50px">
-			<div class="text-center">
-				<h6 style="margin-top:0;color:white">Majid EH</h6>
-			</div>
-		</div>
-		<div class="row lesimages">
-			<div class="col-sm-3">
-				<img src="img/photo01.jpeg" alt="" style="border-radius:50px">
-				<div class="text-center">
-					<h6 style="margin-top:0;color:white">Fayrouz K</h6>
+<div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1469457330735 vc_row-has-fill inverse_colors"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1469090596713"><div class="wpb_wrapper"><div id="sc_team_224560628_wrap" class="sc_team_wrap"><div id="sc_team_224560628" class="sc_team sc_team_style_team-3  white_blog margin_top_large margin_bottom_large" style="width:100%;"><h5 class="sc_team_title sc_item_title">Notre equipe</h5><div class="text-center"style="padding-bottom:20px">Rencontrez les spécialistes qui travaillent à notre ferme</div><div class="sc_columns columns_wrap">
+    <div class="row">  
+		<div class="col-md-3 column_padding_bottom">			
+			<div id="sc_team_224560628_1"class="sc_team_item sc_team_item_1 odd first">
+				<div class="sc_team_item_avatar">
+					<img class="wp-post-image" width="370" height="370" alt="Nathan Smith" src="img/photo01.jpeg">					
+					<div class="sc_team_item_hover"></div>
 				</div>
-			</div>
-			<div class="col-sm-3">
-				<img src="img/photo01.jpeg" alt="" style="border-radius:50px">
-				<div class="text-center">
-					<h6 style="margin-top:0;color:white">Fayrouz K</h6>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<img src="img/photo01.jpeg" alt="" style="border-radius:50px">
-				<div class="text-center">
-					<h6 style="margin-top:0;color:white">Fayrouz K</h6>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<img src="img/photo01.jpeg" alt="" style="border-radius:50px">
-				<div class="text-center">
-					<h6 style="margin-top:0;color:white">Fayrouz K</h6>
+				<div class="sc_team_item_info">
+					<h5 class="title" style="margin-top:0;color:white;font-size:14px;font-family:'Signika Negative',sans-serif">Fayrouz K</h5>
 				</div>
 			</div>
 		</div>
-	</div>
-
-
+		<div class="col-md-3 column_padding_bottom">			<div id="sc_team_224560628_2"				class="sc_team_item sc_team_item_2 even"
+				>
+				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Laura Palmer" src="img/photo001.jpg" style="max-height:189px">					<div class="sc_team_item_hover">
+					</div>
+				</div>
+				<div class="sc_team_item_info">
+					<h5 style="margin-top:0;color:white;font-size:14px;font-family:'Signika Negative',sans-serif">Majid EH</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 column_padding_bottom">			<div id="sc_team_224560628_3"				class="sc_team_item sc_team_item_3 odd"
+				>
+				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Joe Carter" src="img/photo04.jpeg">					<div class="sc_team_item_hover">
+					</div>
+				</div>
+				<div class="sc_team_item_info">
+					<h5 style="margin-top:0;color:white;font-size:14px;font-family:'Signika Negative',sans-serif">Yassin B</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 column_padding_bottom">			
+			<div id="sc_team_224560628_1"class="sc_team_item sc_team_item_1">
+				<div class="sc_team_item_avatar">
+					<img class="wp-post-image" width="370" height="370" alt="Nathan Smith" src="img/photo05.jpeg">					
+					<div class="sc_team_item_hover"></div>
+				</div>
+				<div class="sc_team_item_info">
+					<h5 style="margin-top:0;color:white;font-size:14px;font-family:'Signika Negative',sans-serif">Yassine B</h5>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+		<div class="col-md-offset-2 col-md-3 column_padding_bottom">			
+			<div id="sc_team_224560628_1"class="sc_team_item sc_team_item_1 odd first">
+				<div class="sc_team_item_avatar">
+					<img class="wp-post-image" width="370" height="370" alt="Nathan Smith" src="img/photo06.jpeg">					
+					<div class="sc_team_item_hover"></div>
+				</div>
+				<div class="sc_team_item_info">
+					<h5 style="margin-top:0;color:white;font-size:14px;font-family:'Signika Negative',sans-serif">Fayrouz K</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 column_padding_bottom">			<div id="sc_team_224560628_2"				class="sc_team_item sc_team_item_2 even"
+				>
+				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Laura Palmer" src="img/photo07.jpeg" style="max-height:129px">					<div class="sc_team_item_hover">
+					</div>
+				</div>
+				<div class="sc_team_item_info">
+					<h5 style="margin-top:0;color:white;font-size:14px;font-family:'Signika Negative',sans-serif">Majid EH</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 column_padding_bottom">			<div id="sc_team_224560628_3"				class="sc_team_item sc_team_item_3 odd"
+				>
+				<div class="sc_team_item_avatar"><img class="wp-post-image" width="370" height="370" alt="Joe Carter" src="img/photo08.jpeg">					<div class="sc_team_item_hover">
+					</div>
+				</div>
+				<div class="sc_team_item_info">
+					<h5 style="margin-top:0;color:white;font-size:14px;font-family:'Signika Negative',sans-serif">Yassin B</h5>
+				</div>
+			</div>
+		</div>
 		</div></div><!-- /.sc_team --></div><!-- /.sc_team_wrap --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"></div><div class="vc_row wpb_row vc_row-fluid"></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1468933527625"><div class="wpb_wrapper"><div id="sc_blogger_1210243515" class="sc_blogger layout_classic_3 template_masonry margin_top_tiny margin_bottom_medium  sc_blogger_horizontal"><h5 class="sc_blogger_title sc_item_title">Recettes avec les champignons</h5><div class="text-center"style="margin-bottom:20px">Apportez l'étincelle à vos repas!</div><div id="sc_blogger_1210243515_scroll" class="sc_scroll sc_scroll_horizontal sc_slider_noresize swiper-slider-container scroll-container" style="width:100%;"><div class="sc_scroll_wrapper swiper-wrapper"><div class="sc_scroll_slide swiper-slide"><div class="isotope_wrap" data-columns="3">		<div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3					">
 			<div class="post_item post_item_classic post_item_classic_3				  post_format_standard odd">
 				
@@ -571,7 +599,7 @@ jsFileLocation:"//mushroom-farm.ancorathemes.com/wp-content/plugins/revslider/pu
 	<div class="title text-center">
 		<h5>Contactez-nous</h5>
 	</div>
-	<form class="form-horizontal" action="#">
+	<form class="form-horizontal" action="/action_page.php">
     	<div class="form-group">
       	<label class="control-label col-sm-2" for="email">Email:</label>
       	<div class="col-sm-10">
